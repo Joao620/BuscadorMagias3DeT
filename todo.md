@@ -1,0 +1,9 @@
+- [X] adicionar pesquisa por custo
+- [X] adicionar de onde a magia venho
+- [X] fazer validação dos campos
+- [X] encurtador de item
+- [X] remover o negocio de preço de magia
+- [X] fazer o subject pegar dados mesmo se tiver subscribe depois
+- [C] a pesquisa em geral funcionar
+- [C] loader spinner loader das magias
+- 

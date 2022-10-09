@@ -1,0 +1,2042 @@
+[
+    {
+        "nome": "Abençoar àgua",
+        "escola": "Branca, Elemental (água)",
+        "escolaMinificada": "Branca, Elemental (água)",
+        "Exigencias": "Clericato ou Paladino",
+        "custo": "1 PM",
+        "duracao": "instantânea",
+        "descricao": "Esta magia simples permite a um clérigo ou paladino transformar água pura em água benta (até 0,5 litros para cada PM). A água benta é abençoada, e pode ferir criaturas que sejam vulneráveis apenas a ataques sagrados (magia branca). Se ingerida, ela recupera 2 PVs do personagem",
+        "livro": "MM"
+    },
+    {
+        "nome": "Abençoar Arma",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Paladino ou Clericato",
+        "custo": "padrão",
+        "duracao": "sustentável",
+        "descricao": "O paladino consegue imbuir sua arma com uma aura sagrada, oferecendo a ela todas as características de uma arma Sagrada (pg. 120 do Manual 3D&T Alpha). Armas que tenham a habilidade Sagrada não são afetadas. Armas com a habilidade Profana (veja a pg. 41) também não podem ser afetadas",
+        "livro": "MM"
+    },
+    {
+        "nome": "Acalmar Animais",
+        "escola": "Branca, Elemental (terra)",
+        "escolaMinificada": "Branca, Elemental (terra)",
+        "Exigencias": "Clericato",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Esta magia é capaz de acalmar animais (incluindo animais mágicos mais comuns, mas não monstros) que estejam na área de alcance da magia. Animais treinados para atacar, ou que sejam naturalmente agressivos, tem direito a um teste de Resistência para negar o efeito. As criaturas afetadas não fogem ou atacam, ficam paradas no lugar, mas poderão fugir ou atacar em caso de ameaça",
+        "livro": "MM"
+    },
+    {
+        "nome": "Ação Aleatória",
+        "escola": "Branca, Elemental (espíritos)",
+        "escolaMinificada": "Branca, Elemental (espíritos)",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "1 rodada",
+        "descricao": "O alvo dessa magia deve obter sucesso em um teste de Resistência. Caso fracasse, será forçado a agir aleatoriamente na próxima rodada. Jogue 2d contra a tabela para determinar a ação do personagem afetado: [2-4] Ataca a si mesmo (sendo que ele é considerado Indefeso). [5-6] Ataca o ser mais próximo (incluindo aliados, mas não um Protegido). [7] Foge com a maior velocidade possível. [8] Solta o que estiver segurando. [9] Fica imóvel (Indefeso). [10] Não faz nada além de se defender. [11] Fala ou faz barulhos. [12] Ataca o conjurador, ou se aproxima se não for possível atacar",
+        "livro": "MM"
+    },
+    {
+        "nome": "Aderência",
+        "escola": "Elemental (água ou terra)",
+        "escolaMinificada": "Elemental (água ou terra)",
+        "Exigencias": "",
+        "custo": "2 PMs (ou mais, veja o texto)",
+        "duracao": "sustentável",
+        "descricao": "Também conhecida como 'Patas de Aranha' esta magia permite ao mago aderir-se a superfícies verticais (ou até mesmo ao teto), possibilitando a ele caminhar normalmente, como se fosse solo normal. É preciso estar com as mãos livres e os pés descalços para que a magia surta efeito. Assim, o mago passa a se deslocar pelas paredes e teto com metade de sua velocidade normal. É possível 'arrancar' o mago da parede. Para isso é necessário aplicar uma Força igual aos PMs utilizados para conjuração da magia (o mago pode gastar mais do que 2 PMs na conjuração da magia, se desejar). Isso, obviamente, não cancela a magia, que pode continuar a ser sustentada pelo mago",
+        "livro": "MM"
+    },
+    {
+        "nome": "Afetar Fogueiras",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 a 4 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta magia permite controlar chamas do tamanho de uma lamparina (1 PM), fogueira de acampamento (2 PMs), pessoa (3 PMs) ou uma GRANDE fogueira, como uma casa em chamas (4 PMs). Ela não permite criar fogo, apenas controlar fogo já existente. Usado para provocar dano, esse fogo ataca com FA igual a 1d+ os PMs utilizados",
+        "livro": "MM"
+    },
+    {
+        "nome": "Agilidade",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "O mago torna-se mais ágil, gracioso e veloz. Para cada 2 PMs que o mago utilize nesta magia ele recebe um bônus de +1 em Habilidade, mas APENAS para Esquivas, para determinar seu movimento e em testes de FD - mas NÃO para calcular FA, testes de Resistência e outras situações similares",
+        "livro": "MM"
+    },
+    {
+        "nome": "Alarme!",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta magia de advertência permite ao mago traçar um círculo invisível medindo 5m de raio por 1 PMs, e dobrando a distância para cada PM extra (10m para 2 PMs, 20m para 3 PMs, 40m para 4 PMs...). Ao penetrar nessa área, qualquer criatura maior que um camundongo emite um som agudo. Esse som pode ser ouvido por qualquer pessoas ou apenas pelo mago, à sua escolha (o mago deve definir no momento em que lança a magia). O círculo protegido permanece no lugar, e não se desloca com o mago. É permitido ao mago ficar fora da área protegida, desde que ela continue dentro do alcance. Embora indique que uma criatura entrou na área protegida, esta magia não permite ao mago determinar sua posição",
+        "livro": "MM"
+    },
+    {
+        "nome": "Amaldiçoar àgua",
+        "escola": "Negra, Elemental (água)",
+        "escolaMinificada": "Negra, Elemental (água)",
+        "Exigencias": "Clericato",
+        "custo": "1 PM",
+        "duracao": "instantânea",
+        "descricao": "Funciona de modo oposto à Abençoar àgua, gerando uma água profana que pode ser usada para causar dano a seres bondosos de natureza mágica. Se ingerida, a água provoca náuseas e mau estar que impõem um redutor de -1 em Resistência (o que também reduz seus PVs e PMs) durante uma hora",
+        "livro": "MM"
+    },
+    {
+        "nome": "Andar na àgua",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "Clericato",
+        "custo": "1 PM por criatura",
+        "duracao": "sustentável",
+        "descricao": "O alvo desta magia é capaz de andar sobre qualquer líquido como se fosse chão sólido: os pés do alvo flutuam a cerca de 4cm a cima do líquido. Note que as criaturas ainda podem sofrer dano por calor, caso estejam andando por cima de lava, ou tóxicos, caso estejam andando sobre algum tipo de líquido tóxico. Caso a magia seja conjurada quando o alvo estiver dentro de um líquido, ele é transportado para a superfície (18m por turno)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Andar no Ar",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "Clericato",
+        "custo": "1 PM por criatura",
+        "duracao": "sustentável",
+        "descricao": "O alvo desta magia é capaz de andar no ar como se fosse chão sólido. Para subir ou descer ele deve usar um ângulo mínimo de 45º (ou seja, você não pode simplesmente subir para o alto como se estivesse voando) como se estivesse subindo uma escada. Ventos fortes podem atrapalhar, podendo empurrar uma criatura que caminhe no ar (mas ela não chega a 'cair')",
+        "livro": "MM"
+    },
+    {
+        "nome": "Arma Profana",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "Paladino",
+        "custo": "1 a 5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Perceba que uma das exigências da magia é a Vantagem Paladino, mas paladinos não podem ter Magia Negra. Esta é uma magia profana, que apenas pode ser realizada por paladinos caídos, algozes e anti-paladinos. Similar à Profanar Arma, mas a arma do antipaladino torna-se uma arma mágica Profana com bônus de +1 a +5, de acordo com os PMs utilizados. Os bônus oferecidos por Arma Profana não se acumulam com armas que já são mágicas. Ao invés disso, permanecerá o bônus maior. Se a arma mágica tem alguma habilidade especial, as habilidades permanecerão (mas veja a seguir), enquanto o bônus será substituído pelo bônus mais alto. Esta magia não pode ser conjurada sobre uma arma Sagrada (Manual 3D&T Alpha, pg. 120) ou uma arma que esteja sob efeito das magias Abençoar Arma ou Arma Sagrada (se for conjurada sobre uma arma que esteja sob efeito de uma dessas magias, Arma Profana funcionará como uma contra-mágica)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Arma Sagrada",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Paladino",
+        "custo": "1 a 5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Similar à Abençoar Arma, mas a arma do paladino torna-se uma arma mágica Sagrada com bônus de +1 a +5, de acordo com os PMs utilizados. Os bônus oferecidos por Arma Sagrada não se acumulam com armas que já são mágicas. Ao invés disso, permanecerá o bônus maior. Se a arma mágica tem alguma habilidade especial, as habilidades permanecerão (mas veja a seguir), enquanto o bônus será substituído pelo bônus mais alto. Esta magia não pode ser conjurada sobre uma arma Profana (veja a pg. 41) ou uma arma que esteja sob efeito das magias Profanar Arma ou Arma Profana (se for conjurada sobre uma arma que esteja sob efeito de uma dessas magias, Arma Sagrada funcionará como uma contra-mágica)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Armadura Espectral",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "3 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta é uma magia rara. Erguendo uma majestosa armadura de luz negra espectral à volta do corpo do mago, esta magia oferece proteção total contra certos ataques espectrais enquanto esta ativa. O mago tornase imune, por exemplo, ao toque de podridão das múmias e dreno de energia. Alguns ataques espectrais podem ignorar a Armadura do alvo para determinar sua FD. Personagens sob efeito de uma armadura espectral podem realizar sua jogada de FD normalmente contra esses ataques",
+        "livro": "MM"
+    },
+    {
+        "nome": "Armadura de Gelo",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "3 a 15 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta é uma versão aprimorada de Proteção Mágica, desenvolvida por conjuradores das Montanhas Uivantes. O mago é envolvido por uma camada protetora de gelo, que aumenta sua Armadura em 1 ponto para cada 3 PMs gastos, além de conceder Armadura Extra (Frio) e Vulnerabilidade (Fogo). Além disso, caso o mago sob efeito de Armadura de Gelo sofra pelo menos 1 ponto de dano por um ataque realizado com Força o personagem que realizou o ataque deve obter sucesso em um teste de Resistência +1. Se falhar, ficará congelado durante um turno. Um personagem congelado dessa forma é considerado Indefeso, incapaz de se mover ou realizar ações. Toda vez que um mago sob efeito de Armadura de Gelo sofre dano por fogo há uma chance de a magia ser cancelada. Em regras, a magia será cancelada caso o dano de um ataque por fogo seja igual ou superior à quantidade de PMs gastos naquele turno na conjuração da magia Armadura de Gelo. Por exemplo, se o mago gastou 6 PMs para ter A+2, sua magia será imediatamente cancelada caso em um mesmo ataque ele sofra 6 pontos de dano ou mais por fogo",
+        "livro": "MM"
+    },
+    {
+        "nome": "Ataque da Ordem",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Clericato",
+        "custo": "1 a 5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia desenvolvida pela ordem de Khalmyr é especialmente poderosa contra criaturas caóticas. Funciona como um Ataque Mágico, mas quando o ataque é realizado contra criaturas com qualquer tipo de Insanidade, ou contra criaturas do caos (como um mago do caos) o alvo deve obter sucesso em um teste de Resistência ou ficará pasmo durante 1d turnos. Uma criatura pasma pode realizar apenas uma ação por turno (não tem direito a um movimento - muito embora possa usar sua ação para moverse) e sua Armadura é desconsiderada para determinar sua FD. Utilizada contra qualquer outra criatura essa magia funciona como um Ataque Mágico da Escola Branca",
+        "livro": "MM"
+    },
+    {
+        "nome": "Aura",
+        "escola": "Elemental (todas)",
+        "escolaMinificada": "Elemental (todas)",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia possui a capacidade de embuir os ataques com um círculo sustentável de um elemento mágico. O alvo recebe um bônus em Força igual ao número de PMs gastos na conjuração da magia. Entretanto a cada turno o bônus se reduz em -2 (a partir do próximo turno). Para usar esta técnica é necessário deixar o elemento fluir até a ponta dos membros e passar para as armas (se este for o caso), ou para os punhos e pernas, aumentando o nível de combate corporal ou mesmo à longa distância. Aura é uma forma diferenciada de Aumento de Dano",
+        "livro": "MM"
+    },
+    {
+        "nome": "Aura Brilhante",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "1 PM por turno",
+        "duracao": "sustentável",
+        "descricao": "Alguns magos conseguem exalar uma aura que amplia os poderes mágicos de seus aliados arcanos. Todos os aliados do mago que estejam a até 50m e que sejam capazes de vê-lo que recebem um bônus de +1 na Habilidade para determinar efeitos de magias",
+        "livro": "MM"
+    },
+    {
+        "nome": "Aura Profana",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "Clericato",
+        "custo": "3 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta magia envolve o alvo com uma aura malévola que o protege. Visualmente o efeito é similar à Proteção Mágica com Magia Negra, mas os efeitos são bem diferentes. O alvo recebe +2 de bônus na Armadura e nos testes de Resistência. Também adquire Resistência à Magia (se já não tinha), mas funcionando apenas contra magias da escola Branca (cumulativo com o bônus de Resistência). O alvo afetado torna-se imune a ação mental (Telepatia, e todas as magias da Escola Elemental: espírito) e Possessão. E finalmente, caso o alvo seja atingido por uma criatura bondosa (com os Códigos de Honra dos Heróis e/ou Honestidade, ou com a vantagem Magia Branca), esta deve fazer um teste de Resistência ou sofrerá uma penalidade de F-1 (esse dano pode ser recuperado com descanso), até um mínimo de F0",
+        "livro": "MM"
+    },
+    {
+        "nome": "Aura Sagrada",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Clericato",
+        "custo": "3 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta magia envolve o alvo com uma aura sagrada que o protege. Visualmente o efeito é similar à Proteção Mágica com Magia Branca, mas os efeitos são bem diferentes. O alvo recebe +2 de bônus na Armadura e nos testes de Resistência. Também adquire Resistência à Magia (se já não tinha), mas funcionando apenas contra magias da escola Negra (cumulativo com o bônus de Resistência). O alvo afetado torna-se imune a ação mental (Telepatia, e todas as magias da escola Elemental: espírito) e Possessão. Caso o alvo seja atingido por uma criatura maligna (que tenham ou sejam criadas com Magia Negra, mortos-vivos e criaturas que tenham certos tipos de Insanidade, como Homicida), ela deve fazer um teste de Resistência ou ficará cega (como na magia Cegueira)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Aura Vampírica",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "1 PM por turno",
+        "duracao": "sustentável",
+        "descricao": "O nome dessa magia é bastante sugestivo, pois acredita-se que ela realmente tenha sido criada por um lorde vampiro há muito esquecido. Toda vez que o alvo dessa magia acertar um ataque com Força e causar pelo menos 1 ponto de dano, ele irá recuperar 1 PV, drenado da energia do próprio ataque",
+        "livro": "MM"
+    },
+    {
+        "nome": "Banf!",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia élfica permite realizar um único teleporte de curto alcance (a até 20m) para qualquer direção escolhida pelo mago. Não permite se teleportar para o interior de objetos sólidos (se isso for tentado os pontos são gastos, mas a magia não funciona). O nome da magia deve-se ao barulho que o efeito produz, com o desaparecimento e reaparecimento do mago",
+        "livro": "MM"
+    },
+    {
+        "nome": "Barreira de Lâminas",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "Clericato",
+        "custo": "5 a 50 PMs",
+        "duracao": "sustentável",
+        "descricao": "Essa magia faz surgir uma barreira feita de lâminas afiadas que giram em torno de um ponto central (onde o mago conjurou a magia). Atravessar a barreira provoca 1d pontos de dano para cada 5 PMs da magia (até no máximo 10d), sem direito a nenhum teste para evitar. A barreira de lâminas pode ter até 9m de raio. Criaturas que estejam dentro da barreira também recebem um bônus de A+2 contra ataques realizados com Poder de Fogo - mas ataques com Poder de Fogo realizados de dentro da barreira também sofrem penalidade de -2. Criaturas que estejam dentro do limite da barreira (ou seja, a barreira será criado em cima deles) podem fazer um teste de Esquiva com bônus de +1 para evitar sofrer dano. Uma criatura que seja alvo dessa magia contra a sua vontade também pode fazer um teste de Esquiva +1 para evitar a barreira. Acredita-se que a barreira de lâminas tenha sido desenvolvida por clérigos de Keenn",
+        "livro": "MM"
+    },
+    {
+        "nome": "Bênção",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Clericato ou Paladino",
+        "custo": "1 PM por criatura",
+        "duracao": "sustentável",
+        "descricao": "Essa é uma magia divina bastante simples. Com uma bênção, as criaturas afetadas se enchem de bravura e recebem um bônus de +1 em sua FA e em seus testes de Resistência contra medo",
+        "livro": "MM"
+    },
+    {
+        "nome": "Bola de Fogo de Questor",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 a 10 PMs +1 PM por criatura",
+        "duracao": "instantânea",
+        "descricao": "A criação desta magia é atribuída a Questor Silvermoon, um arqueiro/mago que vivia na antiga Shanower (hoje em ruínas). Dizem que ele a teria criado para combates envolvendo muitos aliados. Hoje o mago esta desaparecido (provavelmente morto), e poucos magos em Arton conhecem a magia. Uma Bola de Fogo de Questor tem exatamente o mesmo efeito de uma Bola de Fogo (Manual 3D&T Alpha, pg. 84), com a diferença de que o mago pode escolher certa quantidade de pessoas dentro da área afetada; essas pessoas NÃO recebem qualquer dano. O custo da magia aumenta em +1 PM para cada criatura dentro da área de efeito que não receberá o dano",
+        "livro": "MM"
+    },
+    {
+        "nome": "Bordão Mágico",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "Clericato",
+        "custo": "2 PMs",
+        "duracao": "veja abaixo",
+        "descricao": "Apesar do nome essa magia druídica pode ser conjurada sobre qualquer arma de madeira. Quando Bordão Mágico é conjurada o druida deve conjurar uma nova magia instantânea sobre o bordão no turno seguinte. Essa magia, então, ficará presa dentro do bordão até que o druida decida utilizá-la - quando o druida dá a ordem a magia é conjurada como um movimento (ou seja, o druida pode conjurar uma magia e liberar a magia contida no bordão no mesmo turno, mas não poderá se mover). A magia permanece presa ao bordão até ser liberada (o que pode levar dias), ou até ser Cancelada. Apesar de ser uma magia druídica, clérigos e magos que consigam satisfazer seu prérequisito também podem aprendê-la",
+        "livro": "MM"
+    },
+    {
+        "nome": "Camaleão",
+        "escola": "Branca, Elemental (terra ou ar)",
+        "escolaMinificada": "Branca, Elemental (terra ou ar)",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "sustentável",
+        "descricao": "O alvo desta magia adquire as cores da paisagem ao seu redor, tornando mais difícil de enxergá-lo. Ele passa a fazer testes para se esconder como se tivesse a Especialização Furtividade - ou, caso ele já tenha esta Especialização, recebe um bônus de H+2 em todos os testes envolvendo-a. Esta magia também pode ser conjurada sobre objetos. Neste caso qualquer teste para encontrar o objeto sofre uma penalidade de -2. Na Grande Academia Arcana muitos alunos usam Camaleão para esgueirar-se pelos corredores ou para esconder os pertences de seus colegas",
+        "livro": "MM"
+    },
+    {
+        "nome": "Campo de Antimagia",
+        "escola": "Branca, Negra e Elemental (o conjurador precisa ter as três Escolas)",
+        "escolaMinificada": "Branca, Negra e Elemental (o conjurador precisa ter as três Escolas)",
+        "Exigencias": "Clericato ou Arcano",
+        "custo": "5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Quando essa magia é conjurada o mago passa a emanar uma aura de antimagia com 3m de raio centrado no mago - magias e itens mágicos deixam de funcionar dentro deste campo. Note que os efeitos não são cancelados, eles apenas não funcionam (e voltarão a funcionar normalmente caso saiam do campo antimagia). Magias com custo em PMs 20 ou superior e magias conjuradas por deuses maiores e semideuses não são afetadas (elas funcionam mesmo dentro do campo). Cancelamento de Magia não afeta um Campo Antimagia. Criaturas conjuradas (como pelas magias Conjurar Animais e Criatura Mágica) desaparecem quando entram no campo antimagia, mas podem reaparecer caso o campo seja desfeito ou o mago se movimente. Uma magia Campo de Antimagia pode ser utilizada como contra-mágica para ela mesma - ou seja, um mago pode conjurar essa magia para cancelar os efeitos da mesma magia, conjurada por outro personagem",
+        "livro": "MM"
+    },
+    {
+        "nome": "Chicote de Fogo",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "2 PMs por rodada",
+        "duracao": "sustentável",
+        "descricao": "De forma parecida com a magia Chicote de Trevas, o mago cria um chicote afiado feito do elemento fogo que pode ser usado para atacar o inimigo mesmo a certa distância, como se tivesse Membros Elásticos. O mago ataca com F+H+2d. Custa 2 PMs por turno",
+        "livro": "MM"
+    },
+    {
+        "nome": "Chicote de Trevas",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "2 PMs por rodada",
+        "duracao": "sustentável",
+        "descricao": "Um chicote de luz surge na mão do mago e pode ser usado para atacar o inimigo, como se o mago tivesse Membros Elásticos. O mago ataca com F+H+2d. Ainda que pareça ser feito de luz, na verdade o chicote é feito de energia negra, e seu dano se agrava pelo poder \"venenoso\" deste elemento. Gasta 2 PMs por rodada",
+        "livro": "MM"
+    },
+    {
+        "nome": "Círculo de Cura",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Clericato",
+        "custo": "5 PMs para cada 1d PVs",
+        "duracao": "instantânea",
+        "descricao": "Essa é uma magia muito rara, ensinada apenas a clérigos muito experientes. Ela funciona similar a uma Cura Mágica - com a diferença que afeta todos os aliados do mago dentro do alcance da magia. Para cada 5 PMs utilizados as criaturas recuperam 1d PVs. Assim como Cura Mágica, um Círculo de Cura pode ser usado para curar aflições como doenças, venenos, cegueira, surdez ou paralisia - mas usada dessa forma o custo é de 10 PMs e não restaura PVs (mas afeta todos dentro do alcance da magia). Um Círculo de Cura pode ser usado para causar o dano em mortos-vivos - mas usada dessa forma ela não irá restaurar PVs dos aliados (ou seja, o mago deve escolher se utilizará ela para curar os aliados ou ferir os mortos-vivos)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Círculo de Morte",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "Clericato",
+        "custo": "5 PMs para cada 1d PVs",
+        "duracao": "instantânea",
+        "descricao": "Essa é uma magia muito rara. Ela funciona similar a uma Cura para os Mortos - com a diferença que afeta todos os aliados do mago dentro do alcance da magia. Para cada 5 PMs utilizados as criaturas mortas-vivas recuperam 1d PVs",
+        "livro": "MM"
+    },
+    {
+        "nome": "Círculo de Raios",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "5 PMs por rodada ou 10 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta magia faz com que vários relâmpagos caiam à volta do mago, até o alcance de sua visão, gastando 5 PMs por rodada. Todas as criaturas na área devem ter sucesso em um teste de Resistência +1 ou ficam paralisadas por 1d rodadas. Se o mago gasta 10 PMs por rodada, em vez de paralisia, a magia provoca danos mentais (a vítima ganha uma insanidade escolhida pelo Mestre)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Conjurar Animais",
+        "escola": "Elemental (água ou terra)",
+        "escolaMinificada": "Elemental (água ou terra)",
+        "Exigencias": "",
+        "custo": "1 a 8 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta magia permite ao mago conjurar um animal que exista nas redondezas; o animal surge por encanto bem diante do mago, mas não estará necessariamente sob seu controle (para conseguir isso o mago deve usar outros meios). O tamanho e espécie do animal dependem dos PMs utilizados na conjuração da magia: 1 PM: gato, cachorro, animais pequenos em geral. 2 PMs: raposa, cabra, ovelha. 3 PMs: lobo, javali, leopardo. 4 PMs: cavalo, zebra. 5 PMs: camelo. 6 PMs: urso, girafa. 7 PMs: crocodilo. 8 PMs: rinoceronte, elefante. As características exatas do animal dependem do Mestre, mas em geral sua soma não excede os PMs da magia. Se você usou 3 PMs, então tem 3 pontos para distribuir entre as 5 características do animal",
+        "livro": "MM"
+    },
+    {
+        "nome": "Conjurar Insetos",
+        "escola": "Elemental (água ou terra) ou Negra",
+        "escolaMinificada": "Elemental (água ou terra) ou Negra",
+        "Exigencias": "",
+        "custo": "1 a 8 PMs",
+        "duracao": "sustentável",
+        "descricao": "Funciona da mesma forma que Conjurar Animais, com a diferença que os animais conjurados sempre serão insetos e invertebrados, em versões normais, monstruosas ou gigantescas - como aranhas, escorpiões, besouros, formigas, abelhas, etc. Criaturas insetóides típicas de Arton (como as abelhas-grifo, asas assassinas, corcel do deserto, gafanhoto-tigre, besouro-doóleo e outros) também podem surgir com essa magia",
+        "livro": "MM"
+    },
+    {
+        "nome": "Controlar o Clima",
+        "escola": "Elemental (ar ou água)",
+        "escolaMinificada": "Elemental (ar ou água)",
+        "Exigencias": "",
+        "custo": "2 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "O mago consegue modificar as condições do clima, transformando garoa em tempestade, ou brisa em furacão. O Mestre define as condições atuais do clima. O mago então pode mudar a condição em gradativamente. A seguir estão as condições que podem ser alteradas (e a Escola Elemental em que cada uma atua). Temperatura (ar ou água): o mago pode aumentar ou reduzir a temperatura em 5 ºC por turno. Vento (ar): o mago pode aumentar ou reduzir a intensidade do vento. A cada turno ele pode aumentar ou reduzir o vento entre as seguintes escalas: Nenhum, Vento Fraco (uma brisa refrescante, suficiente para apagar tochas), Vento Forte (suficiente para levantar poeira), Vendaval (reduz a velocidade pela metade e provoca -2 de penalidade em todos os testes) e Furacão (impossível se mover; exige sucesso em um teste de Habilidade por turno para não ser sugado pelo furacão e arremessado a 2d metros). Também é possível mudar a direção do vento em um turno. Chuva (água): o mago pode aumentar ou reduzir a intensidade da chuva. A cada turno ele pode aumentar ou reduzir a chuva entre as seguintes escalar: Nenhuma, Chuva Fraca (uma garoa fina e incômoda), Chuva Forte (enxerca as roupas e enche as botas em poucos minutos), Tempestade (além da chuva, relâmpagos e trovões caem do céu). O mago só consegue afetar uma das condições por turno. Não é possível controlar condições específicas, como os locais onde os raios irão cair. Depois que ele estiver formado é possível controlar um Furacão para que ele se mova um metro por turno. Por exemplo, em uma situação comum (sem vento, nem chuva e a uma temperatura de 25 ºC) o mago levaria 12 turnos para criar uma tempestade de gelo, reduzindo a temperatura para 0 ºC (5 turnos), com uma Tempestade (3 turnos) e um Furacão (4 turnos), além de gastar 24 PMs no processo. De modo geral essa magia não pode ser usada para causar dano, mas os efeitos diversos podem afetar algumas criaturas. Note que o próprio mago não é imune aos efeitos, caso esteja dentro da área. Uma vez que a magia termine o clima volta à sua situação normal, retornando em uma escala por turno - mas nessa situação cada uma das condições (temperatura, vento e chuva) atuam de forma independente",
+        "livro": "MM"
+    },
+    {
+        "nome": "Controlar Elemento",
+        "escola": "Elemental (água, ar, fogo ou terra)",
+        "escolaMinificada": "Elemental (água, ar, fogo ou terra)",
+        "Exigencias": "Elementalista (com o elemento a ser controlado)",
+        "custo": "variável",
+        "duracao": "sustentável (mas veja o texto)",
+        "descricao": "Especialmente valorizada por magos elementalistas, esta magia permite controlar e moldar objetos e criaturas constituídos do elemento utilizado: àgua: o mago pode controlar as águas, fazendo com que fiquem mais agitadas ou mais calmas, conforme a sua vontade. Também é possível abrir espaços dentro da água, formando um tipo de corredor. Pode ser usado para controlar criaturas constituídas por água (como elementais da água). Ar: o mago pode controlar o ar e os ventos, fazendo com que fiquem mais fortes ou mais fracos, conforme a sua vontade. Pode ser usado para criar lufadas de vento capazes de arremessar criaturas, mas estes efeitos nunca chegam a causar dano (a menos que a criatura seja arremessada penhasco abaixo...). Pode ser usado para controlar criaturas constituídas por ar (como elementais do ar). Fogo: o mago pode controlar o fogo, aumentando ou reduzindo chamas. Pode ser usado para criar barreiras de fogo ou para apagar as chamas, mas nunca para causar dano (a menos que o alvo decida atravessar a tal barreira de chamas...). Pode ser usado para controlar criaturas constituídas de fogo (como elementais do fogo). Terra: o mago pode controlar a terra. Pode ser usado para abrir passagens em rocha sólida, ou para transformar terra em argila ou barro. Também permite controlar criaturas constituídas de terra (como elementais da terra). Note que Controlar Elemento não permite 'criar' o elemento em questão, apenas controlar aquele que já existe. Cada 2 PMs utilizados com esta magia permitem ao mago controlar 3 metros cúbicos deste mesmo elemento, de acordo com a explicação nos parágrafos anteriores. Utilizada desta forma a magia tem duração sustentável. Caso esta magia seja utilizada para controlar criaturas feitas do elemento em questão (como um elemental, ou uma Criatura Mágica feita com o mesmo elemento), a vítima direito a um teste de Resistência para não ser controlada; caso contrário passa a ser controlada pelo mago como na magia Dominação Total. Utilizada dessa forma a magia passa a ter um custo igual à metade da Resistência da criatura controlada por turno",
+        "livro": "MM"
+    },
+    {
+        "nome": "Corpo Elemental",
+        "escola": "Elemental (todas)",
+        "escolaMinificada": "Elemental (todas)",
+        "Exigencias": "",
+        "custo": "20 PMs ou mais por hora",
+        "duracao": "sustentável",
+        "descricao": "Um conjurador pode transformar seu corpo completamente\nem um elemento - água, ar, fogo, terra ou matéria\nespiritual. Nestas formas você não precisa respirar, é imune a\ntodos os venenos e doenças e não pode ser ferido facilmente:\nrecebe Invulnerabilidade contra ataques físicos ou de energia.\nVocê também pode ser ferido por energia baseada em\nelemento oposto ao seu (por exemplo, Fogo e Frio), e continua\nvulnerável a outras formas de ataque que não causam\ndano, como paralisia, cegueira, controle mental e outras.\nCada escola pode gerar um Corpo Elemental com propriedades\ndiferentes, por um custo maior em PMs:\nàgua: o mago se transforma em água, capaz de passar\npelas frestas mais finas. Por 25 PMs, pode também regenerar\n1 Ponto de Vida a cada dois turnos. Por 30 PMs, pode regenerar\n1 PV por turno.\nAr: o mago se transforma em névoa ou fumaça (visível),\ncapaz de penetrar em qualquer lugar que não esteja\nhermeticamente fechado. Por 25 PMs você também pode\nvoar como se tivesse Voo. Por 30 PMs, pode se transformar\nem ar puro e ficar totalmente invisível.\nEspírito: o mago se transforma em um ser incorpóreo.\nPor 25 PMs você se torna imune a todo dano físico ou de\nenergia, mas não é capaz de usar sua própria Força ou PdF\npara interagir com o mundo físico - pode tocar apenas outros\nseres incorpóreos e xamãs. Por 35 PMs você mantém a imunidade,\nmas pode afetar o mundo físico à vontade.\nFogo: o mago se transforma em fogo, capaz de queimar\nao toque (sua FA por Força recebe +1). Por 25 PMs você\ntambém pode voar como se tivesse a vantagem Voo. Por 35\nPMs, pode expelir rajadas de fogo pelas mãos com PdF5.\nTerra: o mago se transforma em uma criatura rochosa,\nlenta, mas muito difícil de ferir. Enquanto estiver nesta forma\nvocê fica lento (só pode fazer uma ação por turno), mas tem\nArmadura Extra contra todos os ataques (até mesmo magia e\narmas mágicas). Por 30 PMs, você recebe temporariamente\num bônus de F+2. Por 35 PMs, um bônus de F+4.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Corpo de Ferro",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "",
+        "custo": "4 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta magia foi desenvolvida pelos magos de combate de Yuden. Quando ela é conjurada a pele do mago se tornar metálica, e ele adquire a aparência e alguns dos traços de um golem. O personagem não pode ser afetado por venenos e doenças e não precisa respirar. Enquanto esta sob efeito da magia também não precisará e nem poderá dormir, comer ou beber, e não poderá restaurar PVs com descanso, apenas magias de cura. O mago também recebe Armadura Extra contra todas as magias que causam dano e é automaticamente bem-sucedido em testes de Resistência contra outras magias. Ainda recebe as habilidades Camuflagem e Monstruoso descritas na pg. 58 do Manual 3D&T Alpha. O mago pode conjurar novas magias enquanto estiver sob efeito de Corpo de Ferro, mas precisa gastar o dobro de PMs. O alvo também recebe um bônus de F+1 e uma penalidade de H-1. O peso do personagem também é multiplicado por 10. Não é possível nadar enquanto se esta sob efeito da magia - mas também não é necessário respirar e é possível suportar a pressão de águas profundas. Isso torna essa magia relativamente útil quando se quer explorar o fundo do oceano",
+        "livro": "MM"
+    },
+    {
+        "nome": "Criação de Dragão-Esqueleto",
+        "escola": "Negra e Elemental (espíritos)",
+        "escolaMinificada": "Negra e Elemental (espíritos)",
+        "Exigencias": "",
+        "custo": "especial (veja o texto). Duração: permanente",
+        "duracao": "permanente",
+        "descricao": "Alcance: curto. Esse ritual permite invocar um dragão-zumbi a partir dos restos mortais de um dragão. A magia exige mais energia conforme o dragão tornase mais velho. O custo da magia é de 7 PMs para cada categoria de idade do dragão. Assim, invocar um dragão-zumbi filhote tem custo de 7 PMs, enquanto invocar um grande ancião custa 49 PMs. Assim como o ritual para criação de um dragão-esqueleto, esse ritual é pouco conhecido e muito cobiçado. Apenas criaturas malignas e de grande poder conhecem os segredos necessários. Também são necessários vários instrumentos místicos específicos, pouco visados por personagens de boa índole. Em regras, estes instrumentos somam o total de 7 Pontos de Experiência por categoria de idade do dragão",
+        "livro": "MM"
+    },
+    {
+        "nome": "Criação de Dragão-Zumbi",
+        "escola": "Negra e Elemental (espíritos)",
+        "escolaMinificada": "Negra e Elemental (espíritos)",
+        "Exigencias": "",
+        "custo": "especial (veja o texto). Duração: permanente",
+        "duracao": "permanente",
+        "descricao": "Esta magia pode criar uma quantidade de frutas e vegetais suficientes para alimentar uma pessoa por 24 horas. Os vegetais não são escolhidos pelo mago (em geral são frutas e legumes da estação) e sempre surgem acomodados sobre o chão, em um ninho de folhas limpas. (Não, você NÃO pode fazer cair cocos na cabeça do oponente, espertinho...)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Criação de Frutas e Vegetais",
+        "escola": "Branca ou Elemental (água)",
+        "escolaMinificada": "Branca ou Elemental (água)",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "permanente",
+        "descricao": "Esta magia pode criar uma quantidade de frutas e vegetais suficientes para alimentar uma pessoa por 24 horas. Os vegetais não são escolhidos pelo mago (em geral são frutas e legumes da estação) e sempre surgem acomodados sobre o chão, em um ninho de folhas limpas. (Não, você NÃO pode fazer cair cocos na cabeça do oponente, espertinho...)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Criação de Mortos-Vivos",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta é uma variação necromante de Criatura Mágica\n(veja a seguir). Só que, em vez de construir uma criatura com\nmagia pura, você lança a magia sobre um cadáver; ele não\nretorna à vida, mas se levanta e obedece às suas ordens.\nEm termos de regras, o cadáver funciona como uma\nCriatura Mágica - você tem um número de pontos de personagem\npara distribuir em suas características igual ao número\nde PMs gastos. Existem versões Superiores e Supremas desta\nmagia, que funcionam como as versões Superiores e Supremas\nde Criatura Mágica.\nUm morto-vivo não tem inteligência, mas obedece\nordens simples como seguir, proteger, atacar... em combate,\nluta até ser destruído (ou Esconjurado). Mortos-vivos criados\ncom esta magia podem ser Esconjurados, ou então Controlados\npor outra pessoa (para retomar o controle, seu criador\ntambém terá que usar Controle de Mortos-Vivos).\nVale lembrar que, na maioria dos mundos, criar mortos-\nvivos é um crime horrível. Personagens que possuam o\nCódigo de Honra dos Heróis são proibidos de usar esta magia.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Criar àgua",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "3 PMs ou mais",
+        "duracao": "permanente",
+        "descricao": "Esta é uma magia simples conhecida por quase todos os elementalistas da água. Com ela o mago é capaz de criar água repentinamente. Gastando-se 3 PMs ele pode criar até 1 L de água potável. Para cada 3 PMs adicionais o volume de água criado é multiplicado por dez: 6 PMs para dez litros, 9 PMs para cem litros, 12 PMs para mil litros e assim por diante, até um máximo de 21 PMs para encher um pequeno lago. Entretanto é possível criar somente 1 L por rodada; ou seja, mesmo que o mago utilize 20 PMs ele ainda vai demorar sete rodadas para criar os 1.000.000 L de água. Por outro lado, o mago não precisa de concentração nesse meio tempo, e pode lutar, defender-se e até conjurar outras magias enquanto a água esta sendo criada",
+        "livro": "MM"
+    },
+    {
+        "nome": "Cura Mágica Mínima",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Clericato",
+        "custo": "0 PMs",
+        "duracao": "instantânea",
+        "descricao": "Essa magia bastante simples é uma das primeiras magias ensinadas a um clérigo em ordens que visam a cura de aflições. A magia não tem custo em PMs, e pode restaurar 1 PV da vítima - suficiente, muitas vezes, para salvar a vida de uma pessoa comum",
+        "livro": "MM"
+    },
+    {
+        "nome": "Desespero",
+        "escola": "Negra ou Elemental (espírito)",
+        "escolaMinificada": "Negra ou Elemental (espírito)",
+        "Exigencias": "Clericato",
+        "custo": "1 PM por criatura",
+        "duracao": "sustentável",
+        "descricao": "Desespero é uma versão mais fraca da magia Pânico (veja adiante). O alvo tem direito a um teste de Resistência, e se falhar será tomado por um sentimento de medo. Ele então sofre uma penalidade de -1 em todos os seus testes, incluindo FA, FD, Resistência, Perícias e demais testes de características",
+        "livro": "MM"
+    },
+    {
+        "nome": "Despertar da Fera",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Similar à Fúria Guerreira, essa magia desperta no alvo seus instintos mais primitivos. O alvo é considerado como tendo a desvantagem Fúria (recebendo os benefícios e problemas dessa desvantagem). Entretanto o alvo fica tão enlouquecido que ataca qualquer criatura viva que estiver por perto - ignorando coisas como Código de Honra, Protegido Indefeso e tudo o mais. O alvo tem direito a um teste de Resistência para negar o efeito. Quando a magia termina, o alvo não lembra de nada do que aconteceu",
+        "livro": "MM"
+    },
+    {
+        "nome": "Destruir Criatura",
+        "escola": "Elemental (todas)",
+        "escolaMinificada": "Elemental (todas)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Destruir Criatura não é uma magia, mas um conjunto de magias diferentes. Existe a magia Destruir Humanos, Destruir Humanóides, Destruir Dragões, etc. Assim, um mago que conheça a magia Destruir Youkais não necessariamente conhecerá a magia Destruir Humanos. Quando esta magia é conjurada sobre uma arma qualquer (de longo alcance ou combate corporal) ela torna-se especialmente poderosa contra o tipo de criatura em questão. A arma passa a ser considerada como tendo a habilidade Flagelo (pg. 120 do Manual 3D&T Alpha), mas apenas contra o conjunto de criaturas específica. Existe uma versão desta magia para cada grupo de criaturas (Destruir Humanos, Destruir Semi-Humanos, Destruir Humanóides, etc), bem como uma para cada tipo de monstros (Destruir Dragões, Destruir Gigantes, Destruir Insetos, etc)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Detecção de Armadilhas",
+        "escola": "Elemental (ar) ou Branca",
+        "escolaMinificada": "Elemental (ar) ou Branca",
+        "Exigencias": "Cleriato",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Essa magia funciona de modo muito similar à Detecção do Mal, com a diferença que permite ao clérigo perceber a presença de armadilhas em uma área ou objeto a até 10m. A informação revelada depende do tempo empregado para analisar uma área ou objeto. 1º Turno: presença ou ausência de armadilhas. 2º Turno: quantidade de armadilhas e os dados de dano da armadilha mais poderosa (a que causa mais dano). 3º Turno: o dano e a localização de cada armadilha. Se a armadilha esta fora da visão, o clérigo descobre sua direção, mas não localização exata. A cada turno é possível tentar analisar uma nova área. A magia não atravessa barreiras que excedam 90cm de madeira ou terra, 30cm de pedra, 2,5cm de metal comum ou uma folha fina de chumbo. Armadilhas mágicas são mais difíceis de detectar. Em regras, o clérigo deve ficar um turno a mais para ser capaz de detectá-las (no primeiro turno ele não percebe nada; no seguinte verifica a presença ou ausência de armadilhas; etc)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Disfarce Arcano",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "variável",
+        "duracao": "permanente até ser cancelada",
+        "descricao": "Esta magia serve para disfarçar e esconder a aura mágica de um objeto mágico ou mesmo de uma magia. Disfarce Arcano pode ser conjurada em cima de uma outra magia ou em cima de um item mágico ou item amaldiçoado. Os efeitos são os mesmos. Um item ou magia sob efeito de Disfarce Arcano é mais difícil de detectar e identificar. Cada 2 PMs utilizados com esta magia oferecem 1 chance em 6 de enganar uma Detecção de Magia ou Identificação. Por exemplo, se um mago tem a magia Desvio de Disparos conjurada sobre ele, e depois ainda conjura um Disfarce Arcano com 4 PMs, quando ele for alvo de uma Detecção de Magia existem 2 chances em 6 de a magia Desvio de Disparos não ser detectada (o mago chega à conclusão que seu inimigo não tem nenhuma magia conjurada sobre ele). Disfarce Arcano também esconde todos os efeitos visuais que uma magia possa criar. Por exemplo, se uma magia de Proteção Mágica é conjurada com um Disfarce Arcano, não haverá nenhum brilho nem qualquer efeito que identifique o fato do mago estar sob efeito da magia",
+        "livro": "MM"
+    },
+    {
+        "nome": "Distorção de Movimento",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 PMs por turno (veja abaixo)",
+        "duracao": "sustentável",
+        "descricao": "Essa magia simplesmente dobra a velocidade do mago durante corridas ou viagens. A magia, no entanto, não afeta o numero de ações que o mago pode realizar por rodada. O custo é 2 PMs por turno em combate, ou 5 PMs por hora em longas viagens",
+        "livro": "MM"
+    },
+    {
+        "nome": "Escudo Elemental",
+        "escola": "Elemental (todas)",
+        "escolaMinificada": "Elemental (todas)",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Similar à Proteção Mágica, essa magia envolve o alvo com um escudo de um dos elementos da magia. Entretanto esse escudo não oferece nenhuma proteção - ao invés disso, ele provoca 1 ponto de dano com o elemento utilizado, para cada PM, a todas as criaturas engajadas em combate corporal com o alvo - incluindo aliados próximos!",
+        "livro": "MM"
+    },
+    {
+        "nome": "Escudo da Fé",
+        "escola": "Branca, Negra",
+        "escolaMinificada": "Branca, Negra",
+        "Exigencias": "Clericato ou Paladino",
+        "custo": "1 a 10 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Escudo da Fé é simplesmente uma versão clerical da magia Proteção Mágica (pg. 108 do Manual 3D&T Alpha). Funciona exatamente da mesma forma",
+        "livro": "MM"
+    },
+    {
+        "nome": "Escudo de Mana",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "4 PMs",
+        "duracao": "sustentável",
+        "descricao": "Com essa magia o mago conecta sua energia mágica à sua energia vital. Enquanto o Escudo de Mana estiver ativo, toda vez que o mago for perder PVs, ao invés disso ele perde uma quantidade equivalente de PMs. No entanto, caso ele perca em um único golpe uma quantidade de PMs igual ou superior à sua Habilidade, ele não consegue manter a magia, e ela é cancelada",
+        "livro": "MM"
+    },
+    {
+        "nome": "Falar com Animais",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "Clericato",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "O alvo desta magia recebe os mesmos benefícios de alguns druidas e servos de Allihanna: o personagem torna-se capaz de falar com animais naturais. Algumas vezes pode funcionar com monstros naturais (como grifos). A compreensão vai depender da inteligência do próprio animal",
+        "livro": "MM"
+    },
+    {
+        "nome": "Falar com Plantas",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "Clericato",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Funciona da mesma forma que a magia Falar com Animais, mas para falar com plantas ou criaturas-planta (como trolls)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Fissura",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "",
+        "custo": "20 PMs",
+        "duracao": "sustentável",
+        "descricao": "O mago faz o chão literalmente se abrir sobre um ou mais oponentes que estejam em linha reta, fazendo-os cair em uma fissura caso falhem em uma Esquiva. Vítimas que caiam na fissura ficam aprisionadas. A partir da rodada seguinte sofrem dano por esmagamento, pois a fissura pode ser fechada em seguida pelo desejo do mago. É considerado um ataque com FA= 6d e os oponentes são considerados Indefesos. Nesta situação eles ainda podem atacar (se tiverem como) mas recebem um redutor de -2 em sua Força ou PdF. Para se livrar da fissura é necessário um teste resistido de Força contra a Habilidade do mago (significando a dificuldade de escalada de volta, ou o salto). Personagens com Vôo recebem +2 de bônus no teste; personagens com Teleporte podem fugir rapidamente, sem testes",
+        "livro": "MM"
+    },
+    {
+        "nome": "Flecha àcida",
+        "escola": "Elemental (água), Negra",
+        "escolaMinificada": "Elemental (água), Negra",
+        "Exigencias": "",
+        "custo": "3 PMs (veja abaixo)",
+        "duracao": "instantânea",
+        "descricao": "Essa magia cria, nas mãos do mago, uma flecha que brilha e sibila de forma ácida. O mago precisa realizar um teste de ataque com FA igual a H+1d+2 contra seu alvo, que não tem direito a Armadura para calcular sua FD. Caso o alvo sofra pelo menos 1 ponto de dano, sofrerá esse mesmo dano novamente no turno seguinte. O mago pode gastar +3 PMs para acrescentar mais um turno em que o dano será reproduzido. Por exemplo, gastando 9 PMs o dano se prolonga por 3 turnos além do primeiro. Criaturas imunes a químico (ácido) não são afetadas por essa magia",
+        "livro": "MM"
+    },
+    {
+        "nome": "Fogo das Fadas",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Esta magia foi criada para driblar tentativas de se esconder, ficar invisível e similares. Uma criatura sob efeito de Fogo das Fadas passa a emitir uma luz púrpura cintilante, revelando sua posição para todos. A menos que o Fogo das Fadas seja cancelado nenhuma tentativa mágica de se esconder funcionará: Invisibilidade, Escuridão, Névoa... Mesmo sob efeito dessas magias (e qualquer outra) o alvo ainda ficará visível. O alvo tem direito a um teste de Resistência para negar o efeito",
+        "livro": "MM"
+    },
+    {
+        "nome": "Forma Gasosa",
+        "escola": "Elemental (água ou ar)",
+        "escolaMinificada": "Elemental (água ou ar)",
+        "Exigencias": "",
+        "custo": "1 PM por turno",
+        "duracao": "sustentável",
+        "descricao": "Quando esta magia é conjurada o alvo e todo o seu equipamento adquirem uma forma insubstancial e translúcida, como um fantasma ou um gás. Nesta forma ele passa a ser considerado uma criatura incorpórea: só pode ser ferido por magia e armas mágicas, mas também não pode interagir com criaturas físicas (qualquer ser vivo), exceto através de magia. Fantasmas, vampiros sob a Forma de Névoa e outras criaturas incorpóreas podem interagir com o alvo normalmente, e vice-versa. Além disso, o alvo desta magia consegue voar, como se tivesse Vôo e H1. A criatura também pode atravessar pequenas fissuras, buracos e frestas (mas deve atravessar rápido, pois rever à forma normal no meio do caminho é morte certa), mas não pode atravessar nenhum tipo de líquido. Não é possível carregar nenhum objeto enquanto esta na Forma Gasosa, exceto aqueles que o alvo já estava carregando quando a magia foi conjurada, ou objetos etéreos",
+        "livro": "MM"
+    },
+    {
+        "nome": "Forma de Pedra",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "",
+        "custo": "20 PMs",
+        "duracao": "sustentável",
+        "descricao": "Dizem que essa magia foi criada por um mago que havia sido aprisionado em um calabouço. Com ela, o mago foi capaz de sobreviver por dezenas de anos em um estado pétreo! Quando Forma de Pedra é conjurada o mago aparentemente se transforma em uma estátua de pedra, como se tivesse sido petrificado. Porém diferentemente de um personagem petrificado, o mago pode cancelar esse estado a qualquer momento que desejar. Enquanto esta na Forma de Pedra o tempo parece não passar para o mago - ele pode ficar 200 anos nesta forma e, quando retornar, será como se não tivesse passado mais do que alguns segundos. O mago afetado não é capaz de 'ver' claramente o que esta acontecendo ao seu redor, mas consegue ter um entendimento da situação. Enquanto estiver na forma de estátua o mago se torna incapaz de realizar movimentos, ações ou se comunicar com outros personagens (embora ainda possa usar Telepatia e magias que não exijam movimento nem palavras mágicas). Ele passa a ser considerado um Construto: não precisa comer, beber, dormir, respirar e se torna imune a venenos e doenças. O mago recebe também Regeneração, Resistência à Magia e Armadura Extra (Força e Poder de Fogo). Ele pode voltar à sua forma normal assim que desejar, porém caso estivesse envenenado ou doente, essa doença ou veneno volta a atividade",
+        "livro": "MM"
+    },
+    {
+        "nome": "Frenesi Profano",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "3 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Alguns estudiosos acreditam que essa magia foi ensinada aos mortais por alguma raça de demônios. O alvo de Frenesi Profano se torna mais veloz, podendo realizar uma ação extra por turno. Porém sua essência vital é drenada, e ele perderá 1 PV por turno. Os PVs perdidos através dessa magia só podem ser recuperados através de descanso - magias simplesmente não funcionam! Construtos não são afetados pela magia. Um teste de Resistência é permitido para negar o efeito",
+        "livro": "MM"
+    },
+    {
+        "nome": "Fuga da Tormenta",
+        "escola": "Branca e Elemental (todas) (o mago deve ter acesso às duas escolas)",
+        "escolaMinificada": "Branca e Elemental (todas) (o mago deve ter acesso às duas escolas)",
+        "Exigencias": "",
+        "custo": "4 PMs",
+        "duracao": "sustentável (veja o texto)",
+        "descricao": "Desenvolvida nos laboratórios da Academia Arcana, esta magia já salvou a vida de muitos aventureiros que ousaram invadir a Tormenta. Quando esta magia é conjurada em um alvo, e este alvo entra em uma área de Tormenta, ele será imediatamente teletransportado para o lugar mais próximo que esteja fora da Tormenta (geralmente a fronteira, mas nunca em seu interior) caso chegue a 0 PVs ou seja obrigado a fazer um Teste de Morte. Nada que o alvo faça poderá impedir o transporte. Gastando mais PMs o mago que conjura a magia pode fazer com que também os aliados do alvo, que estejam a até 9m de distância, sejam transportados (sem direito a teste de Resistência). Neste caso ele precisará gastar mais 2 PMs para cada aliado que estiver a até 9m (os PMs são gastos no momento em que a magia é conjurada)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Globo Elemental",
+        "escola": "Branca, Elemental e Negra (o mago deve ter todas as três Escolas)",
+        "escolaMinificada": "Branca, Elemental e Negra (o mago deve ter todas as três Escolas)",
+        "Exigencias": "",
+        "custo": "20 PMs",
+        "duracao": "sustentável",
+        "descricao": "Uma das mais poderosas magias de defesa conhecidas, só perdendo para Invulnerabilidade. Suas mais obvia vantagem é proteger uma área maior em volta do conjurador. Utilizando o poder de todos os elementos disponíveis, o mago cria uma esfera de energia com cores que se alternam rapidamente em sucessão. Alem de protegê-lo de ataques normais e mágicos (incluindo o terrível sopro dos dragões), qualquer ser vivo ou objeto que tocar as energias do globo ou ataca-lo sofre um efeito aleatório. Role 1d e consulte: [1] Branco: provoca cegueira, como na magia. [2] Azul (ar): um ataque elétrico que causa 3d de dano e ignora a FD do alvo. [3] Ao (água): o alvo é recoberto por uma grossa camada de gelo, sofrendo 1d de dano e sendo paralisado por 5 turnos (ele é considerado indefeso). [4] Verde (terra): sofre os efeitos da magia Petrificação, caso o alvo falhe em teste R-2. Objetos são afetados automaticamente. Permanente até ser cancelada. [5] Vermelho (fogo): um ataque de fogo que causa 2d de dano e ignora a FD do alvo. [6] Negro: o alvo tem sua energia vital roubada. Perde 1d PVs, 1d PMs e 1 ponto de Armadura pela próxima hora. Uma Cura de Maldição pode restaurá-lo antes do prazo. Objetos são apenas repelidos. A área afetada pela proteção é um circulo de 3m de diâmetro ao custo de 10 PMs por turno. Cada 5 PMs extras dobram o diâmetro da área. O globo permanece imóvel enquanto for mantido",
+        "livro": "MM"
+    },
+    {
+        "nome": "Identificação",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "2 PMs (mas veja o texto)",
+        "duracao": "instantânea",
+        "descricao": "Com Detecção de Magia é possível verificar a presença de um ou mais objetos mágicos. Esta magia, entretanto, não permite identificar a natureza exata da magia. Identificação serve para isso, para que o mago seja capaz de identificar, com grande precisão, a natureza da magia - os efeitos de um item mágico, a magia que afeta uma área, etc. Geralmente a identificação de um item mágico é bastante simples. A magia pode ser conjurada ao custo de 2 PMs, e o mago saberá exatamente o efeito do item mágico ou a magia. Entretanto itens mágicos ou magias que estejam sob efeito de um Disfarce Arcano são mais difíceis de serem identificados (veja a descrição desta magia na pg. 17). Usar Identificação sobre um item que não se sabe se é mágico ou não é possível, mas algumas vezes a magia vai simplesmente ser consumida sem necessidade, caso o item não seja realmente mágico. Itens malditos também podem ser identificados, seguindo as regras normais. Os itens malditos, entretanto, são aqueles que mais frequentemente estão sob efeito de um Disfarce Arcano",
+        "livro": "MM"
+    },
+    {
+        "nome": "Influência",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "Telepatia",
+        "custo": "3 PMs por frase (veja abaixo)",
+        "duracao": "instantânea",
+        "descricao": "Esta é uma magia branda de controle mental. Com ela você pode sugerir que seu alvo siga um determinado curso de ação, como se fosse uma inspiração própria. O alvo resiste com Resistência -1, e quanto mais razoável for a sugestão, mais fácil ela será acatada. Sugerir para que alguém cometa suicídio ou haja de maneira que resultará em dano cancelam automaticamente a magia, bem como quebrar um Código de Honra, ignorar uma Devoção ou colocar em perigo um Protegido Indefeso. Já personagens ou NPCs com a desvantagem Insano (qualquer) encontram mais dificuldade para resistir: para eles o teste é de R-3. O custo é de 3 PMs para cada frase a ser utilizada. Invocação de",
+        "livro": "MM"
+    },
+    {
+        "nome": "Invocação deAliado Extra-Planar",
+        "escola": "Branca, Negra",
+        "escolaMinificada": "Branca, Negra",
+        "Exigencias": "Clericato",
+        "custo": "1 a 10 PMs",
+        "duracao": "sustentável",
+        "descricao": "Enquanto os magos criam suas criaturas a partir da força elemental, muitos clérigos optam por clamar pelo auxílio de sua divindade para que enviem um aliado de outro plano. Esta magia funciona de modo muito similar à Criatura Mágica, com a diferença que a criatura invocada sempre será um ser dos Reinos dos Deuses. A criatura invocada será um anjo ou meio-celestial (se o mago utiliza a escola Branca) ou demônio ou meio-abissal (se utiliza escola Negra). O poder da criatura depende dos PMs utilizados pelo próprio clérigo. Cada PM oferece 1 ponto de personagem para a criação da criatura (sendo que a raça da criatura também deve ser descontada desse valor). Por exemplo, se o clérigo utiliza 10 PMs ele poderia invocar um anjo com F1, H2, R2, A1, PdF1, Vôo e todas as características de anjos vistas na página 54 do Manual 3D&T Alpha. Se for um clérigo maligno, ele pode conjurar um demônio com F2, H2, R2, A1, PdF1, Vôo e todas as características de demônios vistas na página 54 do Manual 3D&T Alpha. Note que a pontuação dessas duas criaturas não ultrapassam 10 pontos (o custo racial também é descontado). Diferente de uma Criatura Mágica, um aliado extra-planar tem mente própria e pode agir sozinho - ou ele pode ser comandado pelo clérigo seguindo as regras da manobra Comando de Aliado (pg. 72 do Manual 3D&T Alpha). Não se esqueça que seus próprios Pontos de Magia ficam 'presos' na criatura enquanto ela continuar existindo",
+        "livro": "MM"
+    },
+    {
+        "nome": "Invocação da Fênix",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Código de Honra (veja abaixo)",
+        "custo": "5 PMs permanentes",
+        "duracao": "instantânea",
+        "descricao": "Esta magia pode ser usada apenas por personagens honrados (com Código de Honra dos Heróis e/ou Honestidade), incluindo Paladinos. Através dela é possível invocar o lendário pássaro fênix, que leva 1d turnos para atender ao chamado. As aves fênix são criaturas muito inteligentes e nobres; elas não obedecem ordens, mas estarão sempre prontas a lutar por uma causa justa. Uma fênix tem F5, H6, R7, A6, PdF8; Magia Branca, Magia Elemental, Elementalista (fogo e ar), Vôo e Telepatia. Também podem lançar Cura Mágica Superior pelo custo normal em PMs mesmo não tendo Clericato. Uma fênix sempre ganha a iniciativa em combate, sem precisar de testes. Em casos extremos a ave pode se sacrificar, explodindo em uma chuva de chamas com FA 14 que atinge todos os inimigos (mas não os aliados) a até 100m. Dessa chuva se originam 1d-1 jovens fênix, pois é assim que elas se reproduzem: as fênix nascem apenas como fruto de um sacrifício heróico. Um personagem só pode realizar esta magia outra vez após um ano",
+        "livro": "MM"
+    },
+    {
+        "nome": "Lentidão",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Um personagem sob efeito de Lentidão tem dificuldade em se movimentar e agir. Em regras o alvo passa a ser capaz de realizar apenas um movimento OU uma ação por turno - nunca ambos. Se por alguma razão o alvo é capaz de realizar ações ou movimentos adicionais (como com Aceleração) poderão realizar apenas suas ações ou apenas seus movimentos. Alem disso a Lentidão ainda provoca uma penalidade de H-1 em Esquiva e para determinar FD e velocidade. Lentidão pode ser usada como contra-mágica para Velocidade, e vice-versa",
+        "livro": "MM"
+    },
+    {
+        "nome": "Mãos de Fogo",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 PM mais 1 a 5 PMs por turno",
+        "duracao": "sustentável (veja abaixo)",
+        "descricao": "Esta magia faz com que as mãos do mago fiquem flamejantes como tochas. Funciona exatamente como a magia Aumento de Dano com fogo. A diferença é que o mago pode a qualquer momento arremessar as chamas em suas mãos, reproduzindo os efeitos da magia Ataque Mágico com fogo - sem precisar conjurar uma nova magia para isso, nem consumir mais PMs. Uma vez que as Mãos de Fogo sejam arremessadas, a magia se dissipa (sua duração passa a ser instantânea). Essa magia tem um custo de 1 PM para ser conjurada, mais o custo de um Aumento de Dano. Nos turnos seguintes o custo é o mesmo que para Aumento de Dano. Por exemplo, para receber F+2 o mago precisa gastar 3 PMs no primeiro turno e, nos turnos seguintes precisará gastar 2 PMs para manter a magia ativa. Arremessar a magia (como um Ataque Mágico) não tem custo adicional em PMs",
+        "livro": "MM"
+    },
+    {
+        "nome": "Um Momento de Tormenta",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "1 PM para cada 10m (veja o texto)",
+        "duracao": "sustentável",
+        "descricao": "Essa é uma outra versão para a mesma magia descrita na página 103 do Manual 3D&T Alpha. Esta versão é baseada na magia descrita no livro àrea de Tormenta. Antigamente acreditava-se que esta magia tinha sido criada pelo mago Murrice Lemagrag, que escapou vivo de uma área de Tormenta e trouxe o conhecimento sobre como reproduzi-la. Hoje, entretanto, existe a teoria de que esta magia tenha sido criada por Gatzvalith, o Lorde da Tormenta que tomou o Forte Amarid, para espalhar a Tormenta em Arton. No turno seguinte à conjuração desta magia uma nuvem rubra surge a cima do conjurador. A nuvem manifesta um dos seguintes efeitos da Tormenta, à escolha do conjurador: Chuva ácida: Personagens expostos à chuva perdem 1 PV por turno; para cada 10 PVs que percam desta forma, perdem também 1 ponto de Armadura permanentemente. As vítimas continuam a sofrer este dano 1d+1 turnos depois que a magia for dissipada, por efeito do ácido. Neblina Venenosa: A neblina provoca 1 ponto de dano por turno a todas as criaturas que estiverem respirando na área (Construtos e Mortos-Vivos não precisam respirar, por isso são imunes). Criaturas imunes a veneno também são afetadas. Calor Infernal: Uma onda de calor provoca 1 ponto de dano a todas as criaturas na área a cada turno. A cada turno as vítimas devem fazer também um teste de Resistência para evitar sofrer 1 ponto de dano adicional por queimadura. Frio Implacável: Uma rajada gélica provoca 1 ponto de dano a todas as criaturas na área a cada turno. A cada turno as vítimas devem fazer também um teste de Resistência para evitar sofrer 1 ponto de dano adicional por congelamento. Tempestade Elétrica: Jogue 1d por turno. Um resultado 1 significa que os personagens são atingidos por um raio de natureza alienígena (como tudo na Tormenta), gerando uma explosão que provoca 5d de dano a todos a até 10m do ponto de impacto. Nenhum teste é permitido para reduzi o dano à metade, e Armadura Extra ou Invulnerabilidade a eletricidade não funcionam. As energias da Tormenta não são naturais, como as fontes de energia artonianas. Por isso proteções normais não funcionam. Armadura Extra e Invulnerabilidade não surtem efeito - entretanto, Vulnerabilidade sim! Uma vítima com Vulnerabilidade a uma fonte de energia relacionada (químico, fogo, frio ou eletricidade) sofre dano dobrado. Conjurar uma Proteção contra Tormenta em um alvo de Um Momento de Tormenta (ou vice-versa) anula as duas magias (funcionam como contra-mágica). A magia pode ser invocada apenas ao ar livre. Infelizmente para o mago invocador, a nuvem permanece ativa apenas enquanto ele próprio estiver no centro do fenômeno, imóvel, murmurando as palavras mágicas (e provavelmente sofrendo dano, pois o próprio mago NÃO é imune ao efeito!). Mover-se ou teleportar-se para fora da área de efeito provoca o imediato cessar da chuva. Entretanto ele NÃO está indefeso, ele pode defender-se normalmente sem cancelar a magia. Dizem que seu possível criado, o velho Lemagrag, morreu utilizando a magia... Os efeitos da magia Um Momento de Tormenta surgem logo a cima do mago e a uma distância de 10m para cada PM utilizados na conjuração. A divulgação desta magia é extremamente restrita, e sua invocação é permitida apenas em áreas controladas da Academia Arcana de Valkaria, para estudar o fenômeno da Tormenta. Usar esta magia em qualquer outro ponto do Reinado é um crime punido com a morte!",
+        "livro": "MM"
+    },
+    {
+        "nome": "Morte e Decadência",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Essa magia, criada por necromantes malignos, invoca uma aura de decadência sobre o mago. Todas as criaturas vivas a até 10m do mago entram em um processo acelerado de corrupção, perdendo 1d PVs por turno. Sucesso em um teste de Resistência reduz esse dano à metade. Personagens com Armadura Extra (magia e armas mágicas) não sofrem dano nenhum caso obtenham sucesso no teste de Resistência, ou apenas meio dano se fracassarem. Note que o próprio mago não é imune a essa magia. Por outro lado morto-vivos não são afetados por Morte e Decadência. Essa magia exige concentração constante do mago, impedindo que ele realize qualquer outra ação ou movimento em seu turno, caso contrário a magia é cancelada. Entretanto, ele não é considerado Indefeso (sua FD é normal). Devido a seus efeitos causarem dano ao próprio mago, acredita-se que essa magia tenha sido desenvolvida por algum morto-vivo poderoso (provavelmente um lich)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Movimentação Livre",
+        "escola": "Branca ou Elemental (água)",
+        "escolaMinificada": "Branca ou Elemental (água)",
+        "Exigencias": "Clericato ou Paladino",
+        "custo": "3 PMs",
+        "duracao": "sustentável",
+        "descricao": "O alvo desta magia torna-se capaz de movimentar-se livremente mesmo quando esta sob efeito de alguma magia ou efeito de Paralisia ou similar. Ele também pode mover-se de forma normal em ambientes estranhos, como debaixo d'água (mas a magia não permite que o personagem 'respire' debaixo d'água). Ataques com Força não sofrem nenhuma penalidade, mas os com PdF não são afetados",
+        "livro": "MM"
+    },
+    {
+        "nome": "A Muralha Prismática",
+        "escola": "Branca, Elemental e Negra (todas as três)",
+        "escolaMinificada": "Branca, Elemental e Negra (todas as três)",
+        "Exigencias": "",
+        "custo": "20 PMs",
+        "duracao": "sustentável",
+        "descricao": "Quando A Muralha Prismática é conjurada ela cria uma muralha vertical opaca de cores brilhantes que protege contra todas as formas de ataque. A muralha brilha com cinco cores, cada uma com poder e propósito distintos. Qualquer criatura com R3 ou menos que olhar para a muralha deve fazer um teste de Resistência ou sofre os efeitos da magia Cegueira. Fora isso, é possível se aproximar da muralha normalmente. Caso alguém tente atravessá-la sofrerá todos os seus efeitos. Cada cor tem um efeito de proteção, um efeito de ataque e uma magia capaz de anular seus efeitos: \n* Vermelho - Invulnerabilidade a PdF - Ataque Mágico com Fogo - anulada por Inferno de Gelo. \n* Amarelo - impede Petrificação e venenos - Ataque Mágico de Eletricidade - Raio Desintegrador. \n* Verde - imunidade a sopro de dragão - Ferrões Venenosos - anulada por Proteção Mágica. \n* Azul - Armadura Mental - Petrificação - anulada por A Lança Infalível de Talude. \n* Violeta - Invulnerabilidade a Magia e Armas Mágicas - A Loucura de Atavus - anulada por Cancelamento de Magia. Assim, se um personagem tenta passar pela muralha sofrerá os efeitos de Ataque Mágico com Fogo, Ataque Mágico com Eletricidade, Ferrões Venenosos, Petrificação e A Loucura de Atavus. Os Ataques Mágicos são realizados com FA 10+1d. Se alguém lançar a magia Cancelamento de Magia sobre a Muralha Prismática, poderá bloquear a cor violeta, e com isso a muralha não causará mais A Loucura de Atavus e não terá Invulnerabilidade a Magia e Armas Mágicas. A única forma de anular totalmente uma Muralha Prismática é com as magias Inferno de Gelo, Raio Desintegrador, Proteção Mágica, A Lança Infalível de Talude e Cancelamento de Magia. Conforme estas magias forem sendo conjuradas na Muralha, uma de suas cores desaparece. Um Cancelamento de Magia não pode cancelar totalmente A Muralha Prismática, independente dos PMs do mago 'cancelador'. A Muralha Prismática tem as mesmas proporções de uma Muralha de Energia: 3m de largura ou altura ara cada 4 PMs (ou seja, uma combinação mínima de 15m entre largura e altura)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Névoa",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs. Duração: sustentável",
+        "duracao": "sustentável",
+        "descricao": "Esta é uma magia de espionagem, utilizada por magos que desejam espionar seus alvos. Quando a magia esta ativa os olhos do mago brilham como se ele não estivesse enxergando - e realmente não está, pois a imagem em seus olhos não é a mesma que está à sua frente. Enquanto esta sustentando a magia o mago enxerga algum lugar ou criatura distante. Quanto menos o mago conhece o lugar ou criatura, mais difícil será realizar a magia. \n* 2 PMs: o mago consegue contato apenas com um lugar ou criatura que conheça muito bem e já teve contato com ele. \n* 4 PMs: o mago consegue contato com uma criatura ou lugar com o qual ele teve contato somente uma vez na vida. \n* 6 PMs: o mago consegue contato com uma criatura ou lugar que ouviu falar, mas nunca teve contato. \n* 8 PMs: o mago consegue contato com uma criatura ou lugar que nunca ouviu falar. A magia pode ser utilizada com criaturas e lugares que estejam em outros Planos, mas neste caso há um custo adicional de +10 PMs para a realização da magia. Certos itens (como partes do corpo, peça de roupa ou foto da criatura) podem reduzir o custo em até 1 PM. Qualquer criatura inteligente pode notar que esta sendo observada se obtiver sucesso em um teste de Habilidade. A criatura pode tentar evitar ser vista: lance 1d e some à Resistência da criatura observada; depois o mago lança 1d e soma à sua Resistência. Se o mago obtiver o melhor resultado ele consegue observar seu alvo; caso contrário o mago não funciona (mas pode ser tentada novamente, enquanto o mago tiver PMs para gastar). A magia Observar permite apenas contato visual. Entretanto, uma vez que haja esse contato o mago pode tentar conjurar outras magias sobre a criatura observada. Apenas magias com duração sustentáveis e alcance maior do que toque podem ser realizadas - entretanto o custo de cada magia aumenta em +2 PMs, e qualquer teste de Resistência por parte da vítima recebe um bônus de +1. Embora o mago não pode conversar com a criatura observada, o contato visual permite o uso de Telepatia e Poder Telepático. Importante salientar que durante a realização da magia o mago não pode realizar nenhuma outra ação (apenas movimento). Além do mais, o mago é considerado cego, pois sua visão está em outro local",
+        "livro": "MM"
+    },
+    {
+        "nome": "Observar",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "variável",
+        "duracao": "sustentável",
+        "descricao": "Esta é uma magia de espionagem, utilizada por magos que desejam espionar seus alvos. Quando a magia esta ativa os olhos do mago brilham como se ele não estivesse enxergando - e realmente não está, pois a imagem em seus olhos não é a mesma que está à sua frente. Enquanto esta sustentando a magia o mago enxerga algum lugar ou criatura distante. Quanto menos o mago conhece o lugar ou criatura, mais difícil será realizar a magia. \n* 2 PMs: o mago consegue contato apenas com um lugar ou criatura que conheça muito bem e já teve contato com ele. \n* 4 PMs: o mago consegue contato com uma criatura ou lugar com o qual ele teve contato somente uma vez na vida. \n* 6 PMs: o mago consegue contato com uma criatura ou lugar que ouviu falar, mas nunca teve contato. \n* 8 PMs: o mago consegue contato com uma criatura ou lugar que nunca ouviu falar. A magia pode ser utilizada com criaturas e lugares que estejam em outros Planos, mas neste caso há um custo adicional de +10 PMs para a realização da magia. Certos itens (como partes do corpo, peça de roupa ou foto da criatura) podem reduzir o custo em até 1 PM. Qualquer criatura inteligente pode notar que esta sendo observada se obtiver sucesso em um teste de Habilidade. A criatura pode tentar evitar ser vista: lance 1d e some à Resistência da criatura observada; depois o mago lança 1d e soma à sua Resistência. Se o mago obtiver o melhor resultado ele consegue observar seu alvo; caso contrário o mago não funciona (mas pode ser tentada novamente, enquanto o mago tiver PMs para gastar). A magia Observar permite apenas contato visual. Entretanto, uma vez que haja esse contato o mago pode tentar conjurar outras magias sobre a criatura observada. Apenas magias com duração sustentáveis e alcance maior do que toque podem ser realizadas - entretanto o custo de cada magia aumenta em +2 PMs, e qualquer teste de Resistência por parte da vítima recebe um bônus de +1. Embora o mago não pode conversar com a criatura observada, o contato visual permite o uso de Telepatia e Poder Telepático. Importante salientar que durante a realização da magia o mago não pode realizar nenhuma outra ação (apenas movimento). Além do mais, o mago é considerado cego, pois sua visão está em outro local",
+        "livro": "MM"
+    },
+    {
+        "nome": "Olho de Kilrogg",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "sustentável",
+        "descricao": "Nomeada em homenagem a um grande chefe de guerra orc, essa magia cria um olho voador. O olho tem todas suas características 0, Vôo e Aceleração. O mago é capaz de controlar o olho invocado usando a manobra Comando de Aliado (como se o olho fosse um Aliado do mago). Entretanto, o mago não precisa ter contato visual com o olho para ser capaz de controla-lo - ou seja, o olho pode voar para um lugar distante, longe da visão do mago. Tudo aquilo que o olho for capaz de ver será automaticamente transportado para o mago, que poderá ver a mesma coisa. O olho não pode agir sozinho - se ele não estiver sendo Comandado permanecerá parado. Não há limite quanto à distância que o olho pode atingir, mas ele permanece ativo apenas durante 1d+3 minutos; depois disso ele se desmancha em energias místicas (o mago não tem conhecimento sobre a duração exata do olho). Esta magia é especialmente adorada por trapaceiros arcanos e outros magos que lidam com espionagem",
+        "livro": "MM"
+    },
+    {
+        "nome": "Olhos de Azshara",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "2 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Muito pouco se sabe a respeito de Azshara, a maga que dá nome a esta magia e, segundo se acredita, seria sua criadora. Algumas lendas dizem que se tratava de uma maga élfica responsável por uma invasão demoníaca em um mundo distante. Ao utilizar essa magia, os olhos do mago brilham levemente, e ele adquire uma profunda compreensão mágica. O mago torna-se capaz de identificar magias sem a necessidade de testes. Funciona da mesma forma que a magia Identificação (pg. 19), com a diferença que ela esta sempre ativa, e o mago só precisa olhar para o local ou criatura afetada pela magia para ser capaz de identificá-la. Com um teste de Habilidade é possível até mesmo identificar o nível de poder da magia (a quantidade de PMs gastos). Note que Olhos de Azshara também pode ser enganada por um Disfarce Arcano",
+        "livro": "MM"
+    },
+    {
+        "nome": "Onda de Choque",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "",
+        "custo": "4 PMs por rodada",
+        "duracao": "sustentável",
+        "descricao": "Esta magia encanta uma espada ou outro artefato com as propriedades terrestres. Toda vez que o item é brandido ou invocado, uma onda de choque é criada imediatamente à frente do mago e segue em linha reta em direção ao inimigo, atacando com F+H+3d. Mesmo sendo um ataque de longa distância, é baseado em Força. Dura uma rodada para cada 4 PMs gastos. Não funciona, obviamente, contra alvos aéreos",
+        "livro": "MM"
+    },
+    {
+        "nome": "Onda Explosiva",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Com um único golpe, esta magia causa 6d pontos de dano e pode abrir em uma parede um buraco grande o bastante para que uma pessoa passe com facilidade. No entanto, é uma magia difícil de usar em combate, pois o alvo precisa tocar o alvo com as duas mãos (exige dois ataques na mesma rodada, com os redutores apropriados, e ambos devem vencer a FD do alvo)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Pacto Mágico",
+        "escola": "Branca, Elemental e Negra (o mago deve ter todas as Escolas)",
+        "escolaMinificada": "Branca, Elemental e Negra (o mago deve ter todas as Escolas)",
+        "Exigencias": "",
+        "custo": "1 PM ou mais",
+        "duracao": "sustentável",
+        "descricao": "Esta magia é utilizada por certos magos para entrar em comunhão com as habilidades dos guerreiros. Utilizando o pacto, um mago e um guerreiro podem lutar como se fossem um só. É uma troca de habilidades: o mago cede ao guerreiro parte de seu poderio mágico, melhorando seu desempenho em combate, enquanto o guerreiro protege o mago  Para realizar um pacto pela primeira vez, é necessário desenhar um círculo mágico no chão sob o mago ('Magister Magi') e o guerreiro ('Minister Magi'), o que toma uma rodada inteira, sendo necessário um Teste Médio da Especialização Ciências Ocultas ao final do processo (em caso de falha no teste o processo precisa ser reiniciado). Após isso, deve-se realizar o contrato: os dois entram em sincronia mágica, selando o contrato do pacto com um beijo (o que equivale a um movimento). Uma carta com as informações astrológicas do guerreiro é criada, como símbolo do contrato e pode ser usada para comunicação telepática entre o guerreiro e o mago, mesmo que estes estejam a grandes distâncias, bem como para invocar o guerreiro (que deve estar a uma distância máxima de 10 km). A partir de então o mago não precisa 'recontratar' o guerreiro sempre que quiser fazer o pacto; ele apenas invoca o pacto mediante o contrato previamente feito, gastando apenas um movimento para isso. O guerreiro precisa estar em alcance visual curto. Sob efeito de pacto, um guerreiro tem suas habilidades melhoradas. O mago usa seus PMs para aumentar os dotes físicos do guerreiro, bem como dar a ele características únicas de combate. O mago pode gastar seus PMs para conferir ao guerreiro bônus temporários em suas Características. Para cada 1 PM que o mago utilize o guerreiro recebe um bônus de +1 em uma características à sua escolha (até um bônus máximo igual à Resistência do mago ou +5, o que for menor). Entretanto o efeito dura por tempo limitado: um número de turnos igual à Resistência do mago. É possível expandir a duração para além disso, mas neste caso para cada turno adicional o mago precisa gastar estes mesmos PMs. Por exemplo, se um mago com R3 resolve fazer um pacto que dê H+2 e F+1 ao guerreiro ele gasta 3 PMs e o efeito dura 3 turnos. Se ele deseja extender o bônus para cinco turnos precisará gastar 9 PMs (3 PMs pelos 3 primeiros turnos e mais 6 pelos dois turnos adicionais). O mago precisa decidir o tempo do pacto ANTES de realizá-lo, e gasta os PMs necessários apenas uma vez, no momento da invocação do pacto. Caso o pacto se encerre, ele precisará de 1d+2 turnos para poder reinvocá-lo. Encerrar o pacto antes do tempo não restaura os PMs utilizados. O mago pode, além de conferir melhorias nas Características do guerreiro, dar a ele alguma característica especial, como certas vantagens (apenas coisas como Ataque Especial, Ataque Múltiplo, Aceleração, etc.; coisas como Aliado, Familiar, Clericato, Boa Fama e similares não podem ser invocadas com o pacto) ou desvantagem (com excessão das de caráter social). Ele paga, para isso, o custo da vantagem x2 em PMs, ou diminui do custo total do pacto, o valor da desvantagem x2 em PMs. O máximo em termos de vantagens e desvantagens, que o mago pode oferecer é um valor de PMs igual ao dobro de sua Habilidade. Estas características se manifestam na forma de um artefato, que são fixos: ele pode sofrer melhorias, mas sempre será o mesmo quando invocado. Uma cópia da carta original pode ser utilizada para invocar o artefato pelo guerreiro, mesmo que o mago não esteja por perto. Neste caso, é ele quem gasta os PMs necessários (ou parte deles, se não possuir tudo; neste caso, o artefato não vem com todos os seus poderes). A carta-cópia se transforma no próprio artefato, quando isso acontece. É possível realizar mais de um pacto, mas as limitações da magia se aplicam ao total de pactos, e não individualmente (ou seja, um mago com R2 pode realizar dois pactos, mas poderá oferecer apenas um bônus de +1 em cada pacto)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Passos sem Pegadas",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "Clericato",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "O alvo da magia não deixa rastros nem pegadas quando caminha por qualquer tipo de terreno, incluindo lama e neve. Qualquer teste para rastreá-lo torna-se uma tarefa Difícil",
+        "livro": "MM"
+    },
+    {
+        "nome": "Percepção Temporal",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 PM por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta magia permite ao alvo receber parte da percepção temporal que os lefeu, habitantes da Tormenta, possuem. Ele consegue ver parcialmente no futuro. Como resultado todos os seus testes de Habilidade que envolvam movimento (incluindo combates) recebem um bônus de +2. O problema é que a mente humanóide não esta preparada para esse tipo de percepção temporal. Para cada turno que a magia é sustentada o alvo deve fazer um teste de R+2. A cada turno o teste torna-se mais difícil: R+1 no segundo turno, Resistência no terceiro, R-1 no quarto, R-2 no quinto e assim por diante, até o alvo falhar. Se o alvo falhar no teste ele recebe algum tipo de Insanidade Leve (0 pontos)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Portal para o Saber",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia é apenas uma versão mais simples da magia Teleportação Planar. Quando é conjurada, seus alvos são imediatamente teleportados à entrada da Academia Arcana. A magia não permite teleportar-se para nenhum outro lugar. Em todos os demais sentidos, funciona como uma Teleportação Planar. Esta magia é comumente ensinada (ou fornecida na forma de pergaminho) a alunos que tenham dificuldade em chegar na Academia através de seus portais fixos, ou a aventureiros que estejam realizando missões à Academia",
+        "livro": "MM"
+    },
+    {
+        "nome": "Profanar",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "Clericato",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Esta magia foi criada pelos clérigos da Mãe Noite, e tem sido muito utilizada por todos os servos da Deusa das Trevas. O clérigo consegue imbuir energia negativa em uma área (de acordo com o alcance). Magias de Controle ou Esconjuro de Mortos-Vivos sofrem uma penalidade de -2 em seu Focus. Além disso, todos os mortos-vivos e certos youkais malignos (demônios, meio-abissais e licantropos) dentro da área recebem um bônus de +1 em todos os seus testes (FA, FD, testes de Resistência, etc). Mortos\n-vivos que sejam criados ou invocados dentro desta área recebem um bônus de R+1 apenas para determinar seus PVs e PMs. Se a área onde a magia foi conjurada tiver um altar ou outro símbolo de sua divindade (geralmente Tenebra ou Ragnar) os efeitos são duplicados (-4 em Focus para Controle e Esconjuro de Mortos-Vivos, +2 em todos os testes para mortos-vivos e R+2 para determinar PVs e PMs)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Profanar Arma",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "Paladino",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Perceba que uma das exigências da magia é a Vantagem Paladino, mas paladinos não podem ter Magia Negra. Esta é uma magia profana, que apenas pode ser realizada por paladinos caídos, algozes e anti-paladinos. O paladino consegue imbuir sua arma com uma aura sagrada, oferecendo a ela todas as características de uma arma Profana (veja a pg. 41). Mas ela NÃO oferece nenhum outro bônus mágico. Também não afeta uma arma que já seja considerada Profana. Esta magia não pode ser conjurada sobre uma arma Sagrada ou uma arma que esteja sob efeito das magias Abençoar Arma ou Arma Sagrada",
+        "livro": "MM"
+    },
+    {
+        "nome": "Proteção Contra Magia",
+        "escola": "Branca ou Elemental",
+        "escolaMinificada": "Branca ou Elemental",
+        "Exigencias": "",
+        "custo": "1 PM por turno",
+        "duracao": "sustentável",
+        "descricao": "Muito similar à Proteção Contra o Elemento, mas oferece proteção contra ataques mágicos, feitos com magia ou armas mágicas. Com 2 PMs o mago é capaz de criar uma barreira mágica que reduz em 1 PM o efeito de qualquer magia lançada contra ele. Cada PM a cima de 2 aumenta a resistência em +1. Então, um mago que utilize 4 PMs consegue reduzir um Ataque Mágico com 4 PMs para um Ataque Mágico com 1 PM. Magias que não causam dano também são afetadas, mas a magia apenas é cancelada se o resultado for 0 PMs. Por exemplo, um mago sob efeito de Proteção Mágica com 3 PMs é atacado por uma Cegueira (3 PMs) e uma Petrificação (5 PMs). A magia Cegueira não surte nenhum efeito (pois foi reduzida a 0 PMs), mas a Petrificação (que apenas foi reduzida a 2 PMs) funciona normalmente",
+        "livro": "MM"
+    },
+    {
+        "nome": "Proteção Contra o Elemento",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Muito semelhante à Proteção Mágica comum, mas mais efetiva - porque ela protege melhor contra o elemento escolhido. Além de aumentar sua Armadura, quem recebe a magia também terá Armadura Extra contra aquele elemento. Então, se você é um mago com Armadura 3 e àgua 3 sendo atacado com Terra, pode gastar 1 PM por turno e usar Proteção Mágica comum para ficar com A6. Mas se está sendo atacado com àgua, neste caso terá A12! Cada 2 PMs gastos em sua invocação oferecem para o alvo A+1 e Armadura Extra contra o elemento utilizado. Então, se você tem A1, conjura Proteção contra Fogo e gasta 4 PMs, durante uma rodada terá A1+2 e Armadura Extra: Fogo (ou seja, sua Armadura final contra fogo será A6)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Proteção das Armas",
+        "escola": "Branca, Elemental (fogo) ou Negra",
+        "escolaMinificada": "Branca, Elemental (fogo) ou Negra",
+        "Exigencias": "",
+        "custo": "2 PMs por pessoa",
+        "duracao": "sustentável",
+        "descricao": "Desenvolvida pelos laboratórios da Academia Arcana que estudam a Tormenta e seus habitantes, esta magia protege as armas mágicas carregadas pelo alvo. Armas e armaduras mágicas utilizadas dentro de uma área de Tormenta tem sua eficiência reduzida em -2. Assim, uma arma mágica que geralmente oferece F+3 irá oferecer somente F+1. O bônus NÃO se transforma em penalidade. Caso seja uma arma de F+1, dentro da área de Tormenta ela se tornará um item normal. O mesmo acontece com armaduras. Com outros itens mágicos (anéis, varinhas, amuletos, etc) a penalidade aumenta para -4. Itens mágicos com custo de 20 PEs ou menos e que não oferecem bônus simplesmente não funcionam. Quando um mago conjura Proteção das Armas sobre um alvo, todas as suas armas mágicas, armadura e itens de qualquer natureza suportam a entrada em uma área de Tormenta, e por isso não sofrem penalidade. Itens de arremesso perdem essa propriedade quando são arremessados pela primeira vez. Da mesma forma, itens que sejam adquiridos após a conjuração da magia não são afetados",
+        "livro": "MM"
+    },
+    {
+        "nome": "Raio Elétrico",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 a 10 PMs",
+        "duracao": "instantânea ou sustentável (veja adiante)",
+        "descricao": "Esta magia elétrica foi criada por guerreirosmagos que costumavam usar armas de metal e aço para atacar. Conjurando um raio que não tem efeito sobre si mesmo, ele aumenta o dano causado por sua arma, criando uma especie de arma elétrica. A arma ataca com F+H+1d+ os PMs gastos, até o máximo de 10 PMs. Alternativamente, o mago pode lançar um raio nas proximidades ao custo de 3 PMs e que exige do inimigo um teste de Resistência; falha faz o inimigo ficar paralisado por 1d rodadas, sendo considerado Indefeso enquanto isso (mas caso sofra dano, a paralisação é encerrada - como se o contato fizesse o corpo eletrizado servir de \"terra\" e eliminar a energia elétrica)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Rajada de Força",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 a 5 PM",
+        "duracao": "instantânea",
+        "descricao": "Os lefeu, seres da Tormenta, são imunes a todos os elementos que compõem a magia artoniana. Uma Rajada de Força gera um raio de energia universal, criado com todas as escolas e, ao mesmo tempo, nenhuma delas. Assim, a magia ignora toda a proteção que os lefeu tem contra as magias do povo de Arton. O ataque funciona exatamente da mesma forma que um Ataque Mágico: os PMs utilizados (1 a 5) + Habilidade +1d. A diferença é que o mago deve ter as três vantagens mágicas (Branca, Negra e Elemental) para ser capaz de realizá-la",
+        "livro": "MM"
+    },
+    {
+        "nome": "Regeneração",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Clericato",
+        "custo": "2 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Essa magia da escola branca faz com que o alvo seja capaz de regenerar seus ferimentos. Ele é considerado como tendo a vantagem Regeneração (Manual 3D&T Alpha pg. 37). Esta magia também pode ser usada para restaurar membros perdidos. Neste caso o custo é de 5 PMs permanentes, e a duração também é permanente",
+        "livro": "MM"
+    },
+    {
+        "nome": "Santuário",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Clericato",
+        "custo": "1 PM por criatura, por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta magia invoca uma aura de paz similar àquela que protege os clérigos de Marah. Qualquer pessoa que tente atacar o alvo desta magia deve antes passar em um teste de Resistência. Se falhar, seu ataque será interrompido, e sua ação será perdida. A magia não impede que o alvo seja atacado ou sofra os efeitos de magias ou ataques de área não direcionados a ele. O alvo também não poderá atacar ou a magia será dissipada. Por outro lado, ele pode usar magias que não sejam de ataque e realizar outras ações não agressivas (como se proteger, lançar magias de cura ou invocar uma criatura)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Sede de Sangue",
+        "escola": "Elemental (fogo) ou Negra",
+        "escolaMinificada": "Elemental (fogo) ou Negra",
+        "Exigencias": "",
+        "custo": "2 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta magia invoca sobre o alvo uma fúria sanguinolenta. O personagem adquire uma aparência mais agressiva e ameaçadora, tornando-o uma fera sedenta por sangue. Um personagem sob efeito de Sede de Sangue pode realizar um ataque extra por turno, sem nenhuma penalidade. Entretanto o personagem sob efeito da magia deve atacar o tempo inteiro, ou o efeito da magia será dissipado. A cada turno o personagem deve realizar pelo menos um ataque contra um alvo vivo (ou um construto ou morto-vivo); se não o fizer, a magia perde seu efeito imediatamente",
+        "livro": "MM"
+    },
+    {
+        "nome": "Sete Vidas",
+        "escola": "Branca ou Negra",
+        "escolaMinificada": "Branca ou Negra",
+        "Exigencias": "",
+        "custo": "15 PMs",
+        "duracao": "sustentável",
+        "descricao": "Dado o potencial da magia para ceifar a vida de qualquer criatura em um piscar de olhos, certos estudiosos criaram uma forma de proteção especializada. Enquanto mantiver os PMs gastos presos na magia, o mago não será afetado por magias ou efeitos que causem morte automática (ele é automaticamente bem sucedido no teste de R, quando aplicável). Isso infelizmente não o protege contra outras maneiras de morrer, como perda de PVs e falha 'normal'no teste de morte ou envenenamentos",
+        "livro": "MM"
+    },
+    {
+        "nome": "Surdez",
+        "escola": "Elemental (ar) ou Negra",
+        "escolaMinificada": "Elemental (ar) ou Negra",
+        "Exigencias": "",
+        "custo": "3 PMs",
+        "duracao": "permanente 'até ser cancelada",
+        "descricao": "O alvo dessa magia fica completamente surdo, como na desvantagem Defeito Físico: Surdo (pg. 41 do Manual 3D&T Alpha). Assim como em Cegueira, as únicas magias capazes de cancelar uma magia Surdez são Cancelamento de Magia, Cura Total, Cura de Maldição, Desejo ou a própria Surdez (lançada com a Escola Elemental: ar, independente da forma como ela foi conjurada da primeira vez). Tolerância",
+        "livro": "MM"
+    },
+    {
+        "nome": "ao Horror",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "sustentável",
+        "descricao": "Criada para resistir aos horrores da Tormenta e outras ameaças que podem causar insanidade, esta magia oferece ao alvo um bônus de +3 em testes de Resistência para evitar insanidade (incluindo a magia Loucura de Atavus)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Toque da Ferrugem",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "Clericato",
+        "custo": "2 PMs",
+        "duracao": "permanente",
+        "descricao": "Qualquer item de ferro, ou com ligas de ferro, que o clérigo tocar fica enferrujado instantaneamente. O tamanho do objeto a ser enferrujado depende dos PMs: cada 2 PMs afeta um objeto equivalente a um círculo de 2m. Se usado contra criaturas feitas de metal (como construtos) a magia causa automaticamente 1 ponto de dano para PM utilizado, ignorando Força de Defesa (lembrando que ele ainda deve tocar seu alvo). Usada em combate contra criaturas não metálicas, esta magia pode enferrujar armas e armaduras metálicas. Se o ataque acertar, a arma ou armadura estará danificada, o que reduz em 1 ponto a Força (se for uma arma de combate corporal), Poder de Fogo (arma de longo alcance) ou Armadura (se for uma armadura) do alvo. Itens danificados dessa forma podem ser consertados com um teste da Especialização Armeiro (de Mecânica). É necessário um teste para cada ponto perdido. Além disso, são necessários alguns materiais para o reparo, equivalente a 2 Pontos de Experiência para cada ponto a ser restaurado. O trabalho consome uma hora por teste, e em caso de falha o trabalho é atrasado em mais uma hora. Um armeiro ou ferreiro pode consertar os itens ao custo de 1dx10 + 50 Moedas (Tibares de cobre) para cada ponto restaurado. Importante salientar que itens mágicos geralmente não são afetados por esta magia. A magia tem um custo adicional de 5 PMs para cada +1 de bônus do item mágico",
+        "livro": "MM"
+    },
+    {
+        "nome": "Totem",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "instantânea",
+        "descricao": "Esta magia simples permite ao mago transformar seu Familiar ou Aliado em um pingente, que se telepontará para o cordão do mago ou para um outro item que possa ser anexado pelo pingente como pulseiras e chaveiros. Nesse estado o aliado pode ser curado através de magias de cura ou com uma noite de sono de seu conjurador, na segunda opção seus PMs também são recuperados. Para trazer o Familiar/Aliado de volta, basta chama-lo essa ação não gasta PMs",
+        "livro": "MM"
+    },
+    {
+        "nome": "Transformação em Lich",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "5 PMs permanentes",
+        "duracao": "permanente",
+        "descricao": "Extremamente cobiçada por magos poderosos, essa magia permite realizar o ritual de transformação em lich - o mais poderoso mortovivo que existe. Entretanto, apenas os próprios liches conhecem os segredos sobre essa magia, e não estão dispostos a revelá-la. Para a realização do ritual o mago deve primeiro construir um amuleto que irá abrigar sua alma depois que a transformação se concluir. A construção desse amuleto exige componentes materiais no valor de 340 Pontos de Experiência. Se o amuleto for criado, e o ritual completado (o que pode levar algumas horas) o mago alvo dessa magia recebe a vantagem Lich (veja o capítulo 3)",
+        "livro": "MM"
+    },
+    {
+        "nome": "Transporte Etéreo",
+        "escola": "Elemental (espírito), Negra",
+        "escolaMinificada": "Elemental (espírito), Negra",
+        "Exigencias": "",
+        "custo": "2 PMs por criatura ou 50kg de carga",
+        "duracao": "sustentável",
+        "descricao": "Quando conjura essa magia o mago é transportado para as bordas do Plano Etéreo, um Plano dimensional habitado pelos espíritos e fantasmas. O mago passa a ser capaz de se movimentar no Plano Etéreo, com o dobro de sua velocidade normal, e pode emergir para o Plano Material (Arton) a qualquer momento que desejar. O Plano Etéreo se apresenta exatamente igual ao Plano Material, mas completamente preenchido por brumas e nevoeiros. Os objetos também podem parecer translúcidos algumas vezes. Fantasmas, espíritos e outras criaturas incorpóreas são completamente visíveis no Plano Etéreo (mesmo que estejam tentando utilizar alguma forma de invisibilidade). Um personagem que esteja sob efeito de Transporte Etéreo pode interagir normalmente com criaturas incorpóreas, como se ele próprio fosse incorpóreo. Ele também torna-se completamente invisível para criaturas que estejam no Plano Material (nem mesmo Ver o Invisível é capaz de detectá-lo, embora uma Visão de Khalmyr ainda possa percebê-lo). Por outro lado, um personagem sob efeito de Transporte Etéreo é totalmente incapaz de interagir e mesmo ouvir criaturas que estejam no Plano Material",
+        "livro": "MM"
+    },
+    {
+        "nome": "Trovão",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia famosa, mas rara, permite disparar pelas mãos uma rajada elétrica em forma de relâmpago, que pode ziguezaguear livremente, atingindo até seis alvos que estejam em linha reta. As vítimas atingidas sofrem são atacar com FA igual a H+1d + metade dos PMs utilizados. O alvo não pode usar sua FD para defender-se (sua FD será igual a H+1d), a menos que ele tenha Armadura Extra contra eletricidade ou magia (neste caso, sua FD será normal). As vítimas tem direito a fazer um teste de Resistência para reduzir o dano à metade. Qualquer objeto metálico maior que uma armadura (estátua, porta, jaula, âncora...) dentro do alcance atrai para si o relâmpago, impossibilitando o uso da magia",
+        "livro": "MM"
+    },
+    {
+        "nome": "Trovão em Cadeia",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Essa magia é uma versão melhorada da magia Trovão. Funciona exatamente da mesma forma, com a diferença que o trovão não segue apenas em linha reta - ele pode mudar de direção e atacar outro alvo. Após atingir um alvo o trovão salta para a criatura mais próxima e a ataca. Depois ele salta para outra criatura próxima e a ataca também, e assim sucessivamente. O trovão, entretanto, nunca ataca duas vezes a mesma criatura. Além disso, a cada ataque depois do primeiro ele vai ficando mais fraco, e por isso sua FA é reduzida em -2 para cada ataque posterior (ou seja, -2 no segundo ataque, -4 no terceiro, e assim por diante, até ser reduzido a 0 e desaparecer). O grande risco desta magia é que o mago NÃO controla os alvos seguintes do raio, que pode ser qualquer criatura ao alcance - incluindo o próprio mago ou seus aliados! Como acontece com Trovão, qualquer objeto metálico maior que uma armadura dentro do alcance atrai para si o relâmpago, impossibilitando o uso da magia",
+        "livro": "MM"
+    },
+    {
+        "nome": "Velocidade",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Um personagem sob efeito de Velocidade torna-se mais rápido. O alvo passa a ser capaz de realizar uma ação extra por turno em que a magia estiver ativada. Alem disso a Velocidade ainda oferece um bônus de H+1 em Esquiva e para determinar FD e velocidade. Velocidade pode ser usada como contramágica para Lentidão, e vice-versa",
+        "livro": "MM"
+    },
+    {
+        "nome": "Virtude",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "Clericato ou Paladino",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Invocando os poderes divinos, o alvo desta magia recebe um bônus de R+1, mas apenas para determinar seus Pontos de Vida. Estes PVs bônus desaparecem assim que a magia é cancelada. Além disso, eles são os primeiros a serem consumidos quando o personagem sofre dano",
+        "livro": "MM"
+    },
+    {
+        "nome": "Visão de Khalmyr",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "4 PMs",
+        "duracao": "sustentável",
+        "descricao": "O nome sugere que essa magia tenha sido criada por clérigos de Khalmyr, para tentar detectar mentiras e enganações. Quando esta sob efeito da Visão de Khalmyr o mago torna-se completamente imune a qualquer tipo de ilusão,mágica ou normal. Ele também torna-se capaz de ver criaturas invisíveis, e mesmo criaturas que estejam se escondendo em outros Planos (como em um Transporte Etéreo). Enfim, a magia é capaz de perceber qualquer tipo de enganação. Qualquer teste de Disfarce ou similar é considerado Difícil contra um mago sob efeito dessa magia. Visão de Khalmyr, entretanto, não é capaz de detectar criaturas escondidas, nem mentiras faladas, apenas disfarces e enganações ligadas à visão",
+        "livro": "MM"
+    },
+    {
+        "nome": "Vôo",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Vôo é simplesmente uma versão mais avançada da magia Transporte, permitindo que as criaturas ou objetos transportados se afastem do chão ou atinjam grandes alturas. O alvo da magia é considerado como tendo a vantagem Vôo (Manual D&T Alpha, pg. 39). Sua velocidade de vôo é determinada pelos PMs utilizados: 10m/s com 1 PM, 20m/s com 2 PMs, 40m/s com 3 PMs e assim por diante. Contudo, o peso que você pode transportar com Vôo é menor: apenas a si mesmo ou até 50kg com 1 PM; 100kg com 2 PMs; 200kg com 3 PMs; 400kg com 4 PMs e 800kg com 5 PMs",
+        "livro": "MM"
+    },
+    {
+        "nome": "Zona da Verdade",
+        "escola": "Branca, Elemental (ar ou espírito)",
+        "escolaMinificada": "Branca, Elemental (ar ou espírito)",
+        "Exigencias": "Clericato",
+        "custo": "2 PMs",
+        "duracao": "sustentável",
+        "descricao": "Todas as criaturas dentro da área de alcance desta magia não podem mentir de forma deliberada ou intencional, a menos que passem em um teste de Resistência. É permitido um teste para cada afirmação da criatura. As criaturas afetadas sabem que a magia esta fazendo efeito, e por isso podem optar por não falar. Personagens com a Perícia Manipulação ou a Especialização Lábia podem fazer um Teste Difícil para tentar 'ocultar' a verdade. Esta magia é muito utilizada por clérigos de Khalmyr, especialmente em seus tribunais por todo o Reinado",
+        "livro": "MM"
+    },
+    {
+        "nome": "Acordar",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "1 ou 5 PMs por criatura (veja adiante)",
+        "duracao": "instantânea",
+        "descricao": "Esta magia serve para acordar criaturas adormecidas, incluindo aquelas que não possam\nser despertadas por meios normais, como vítimas da magia Sono. Esta utilização consome 1\nPonto de Magia por criatura. Despertar uma vítima da magia Coma consome 5 PMs.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Anfíbio",
+        "escola": "Elemental (ar ou água)",
+        "escolaMinificada": "Elemental (ar ou água)",
+        "Exigencias": "",
+        "custo": "1 PM por criatura",
+        "duracao": "sustentável",
+        "descricao": "Esta magia permite a uma criatura se mover e respirar\nlivremente na água doce ou salgada (mas não outros líquidos).\nEla não precisa de perícias para nadar e pode se mover\nna água com a mesma velocidade que teria em terra (normalmente,\nsem esta magia, um personagem na água se move\ncom metade da velocidade normal). Lançada sobre uma criatura\naquática, a magia tem efeito contrário, permitindo que ela\npossa respirar em terra.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Arma de\nAllihanna",
+        "escola": "Elemental(água ou terra)",
+        "escolaMinificada": "Elemental(água ou terra)",
+        "Exigencias": "",
+        "custo": "até 5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Muito comum entre druidas,\nesta magia faz brotar do chão uma\narma qualquer, à escolha do\nconjurador (espada, machado, lança,\narco e flecha...), feita de madeira,\ncipó e espinhos muito afiados. Ela é\nconsiderada mágica, e ataca com\nForça ou PdF (à escolha do\nconjurador) igual aos PMs gastos,\naté o limite de F5 ou PdF5.\nPor exemplo, um conjurador pode\ngastar 3 PMs e invocar uma arma\nque oferece Força 3 ou PdF 3.\nO bônus não é cumulativo com a\nprópria Força ou PdF naturais do\nconjurador. Então, se você tem F2 e\ngasta 3 PMs para uma Arma de Allihanna, sua Força final é 3 (e\nnão 5). Você pode voluntariamente criar uma arma com Força\nigual ou inferior à sua (o dano é menor, mas agora será uma\narma mágica).\nA Arma de Allihanna é mais difícil de ser invocada em\nlugares estéreis, sem vegetação: em terrenos rochosos, secos,\nurbanos ou amaldiçoados (como casas e cemitérios\nmal-assombrados), o custo em PMs é dobrado. Caso seja\ntransportada para esse tipo de terreno, a arma ainda conserva\nseu dano normal, mas não será mais mágica.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Armadura de Allihanna",
+        "escola": "Elemental (água ou terra)",
+        "escolaMinificada": "Elemental (água ou terra)",
+        "Exigencias": "",
+        "custo": "até 5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Também comum entre\ndruidas, esta magia permite fazer\nbrotar do chão uma armadura de madeira\ne cipó, que se enrosca no corpo do\nmago. Ela fornece um bônus de Armadura\nigual aos PMs gastos, até o limite de A5. Por\nexemplo, um conjurador pode gastar 4 PMs e\ninvocar uma armadura que oferece A4.\nO bônus não é cumulativo com a Armadura\nnatural do conjurador. Então, se você\ntem A1 e gasta 4 PMs para uma\nArmadura de Allihanna, sua Armadura\nfinal é 4 (e não 5). Você pode\nvoluntariamente criar uma armadura\nigual ou inferior à sua (a proteção é menor, mas\nserá uma armadura mágica).\nAssim como a Arma de Allihanna, esta magia\ncusta duas vezes mais PMs para ser lançada e\nmantida em lugares estéreis.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Arpão",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "15 PMs",
+        "duracao": "instantânea",
+        "descricao": "Uma onda de choque na forma de um arpão é lançada\nem velocidade supersônica, em geral destruindo o alvo com\nFA=H+6d.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Asfixia",
+        "escola": "Elemental (ar) ou Negra",
+        "escolaMinificada": "Elemental (ar) ou Negra",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "sustentável",
+        "descricao": "Lançada contra uma criatura, esta magia exige um teste\nde Resistência; se falhar, a vítima não consegue mais respirar.\nUma vítima de Asfixia pode prender a respiração durante\nRx5 minutos, se estiver em repouso ou velocidade normal; ou\num turno por ponto de Resistência se estiver em combate ou\nrealizando grande esforço físico. Esgotado esse tempo, começa\na perder 1 PV por turno.\nEsta magia não tem efeito contra criaturas que não precisam\nrespirar, como construtos ou mortos-vivos.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Ataque Mágico*",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta é a forma mais simples e óbvia de provocar dano\nusando magia - todas as escolas, até mesmo a Magia\nBranca, podem causar dano. Você pode disparar chamas,\njatos líquidos, vento cortante, meteoros, raios de luz, garras\nde escuridão...\nO tipo exato de ataque depende da imaginação do\nmago. A escola Elemental (terra), por exemplo, poderia\natacar com uma chuva de meteoros, uma parede de pedra,\num imenso monolito ou uma mão rochosa gigante. O efeito\nvisual pode mudar, mas existe um limite: a magia sempre\nvai causar dano igual a 1 para cada PM gasto, até o limite\nde 5. Então, se você gasta 2 PMs, sua chuva de meteoros/\nparede/monolito/mão de pedra vai resultar em FA+2.\nUm Ataque Mágico funciona de maneira similar a um\nataque normal; sua Força de Ataque é o resultado de sua\nHabilidade, + 1d, + o poder mágico. Você pode usar esta\nmagia tanto para ataques corpo-a-corpo (como se fosse Força)\nquanto para ataques à distância (Poder de Fogo, mas\nrespeitando o alcance máximo da magia).\nO dano deste ataque pode ser dividido entre alvos diferentes,\naté o limite de um alvo para cada PM gasto. Com 3\nPMs você pode atacar até três alvos diferentes e causar\nH+1d+1 em cada um. O ataque é simultâneo, mas cada\nalvo exige uma rolagem separada. Alvos distantes têm direito\na esquivas.\nEsta mágica é simples, conhecida por todos os magos\niniciantes; numerosas outras magias permitem causar dano\nmuito maior pelo mesmo custo em PMs.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Ataque Vorpal",
+        "escola": "Branca ou Elemental (ar)",
+        "escolaMinificada": "Branca ou Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 PM por turno",
+        "duracao": "sustentável",
+        "descricao": "O efeito desta magia rara é semelhante a Aumento de\nDano, mas não aumenta o dano propriamente dito. Em vez\ndisso, transforma uma arma ou ataque comum em ataque\nvorpal - ou seja, capaz de decapitar o adversário e matá-lo\ncom um só golpe!\nSempre que um personagem sob efeito desta magia (o\npróprio mago ou outra pessoa) consegue um Acerto Crítico e\nvence a FD da vítima, esta deve imediatamente fazer um\nteste de Armadura: se falhar, terá a cabeça cortada. Veja\nmais detalhes sobre armas vorpal no capítulo 'Objetos Mágicos'.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Aumento de Dano",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Em vez de causar dano direto, esta magia pode ser\nusada para aumentar outra fonte de dano. Você pode, digamos,\ncriar uma espada de chamas para aumentar o dano de\nsua Força (ou a Força de um colega). O aumento é igual aos\nPMs gastos, até um máximo de 5 PMs. Além disso, o dano\npassa a ser considerado mágico.\nEntão, você pode gastar 2 PMs por turno e transformar\nem pedra os punhos de seu colega anão que tinha Força 3; ele\nagora terá F5. Mas se você gastar 5 PMs (o máximo possível),\nos punhos do anão terão uma fantástica F8.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Barreira Mística",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Cria uma barreira mágica do tamanho de um escudo,\nque oferece um bônus de Armadura igual a A+2 para cada PM\ngasto. No entanto, esta barreira funciona apenas contra ataques\ngerados por magia.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Bola de Fogo",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 a 10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Uma bola de fogo surge entre as mãos do mago e pode\nser lançada contra um alvo, explodindo e atingindo tudo e\ntodos num raio de 5m com FA=H+1d+PMs gastos. Deve\nser usada com cuidado, pois atinge uma grande área e pode\nprovocar incêndios. É a magia ofensiva mais popular, e ser\ncapaz de lançá-la é um dos pré-requisitos para ser considerado\num mago pleno.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Bola de Lama",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "instantânea",
+        "descricao": "Esta magia produz bolas de matéria barrenta e\nmalcheirosa. Cada bola ataca com FA=1d e ignora a Armadura\ndo alvo. Uma vítima que tenha sua FD vencida não sofre\ndano real, mas fica suja e fedorenta (é considerada Monstruosa)\ndurante uma hora, ou até se limpar.\nA magia produz bolas em quantidade igual à Habilidade\ndo conjurador (ou menos, à sua escolha). Por esse motivo,\num mago pode invocar as Bolas de Lama apenas para demonstrar\numa alta habilidade. As bolas podem ser dirigidas\ncontra alvos diferentes, ou contra um mesmo alvo para\nsomar uma FA maior (três bolas atacam juntas com FA=3d,\npor exemplo).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Bolas Explosivas",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "instantânea",
+        "descricao": "A magia cria, à volta de uma criatura, numerosas bolas\nde luz que explodem espalhando chamas.\nAs Bolas Explosivas são visualmente impressionantes,\nmas o dano real é pequeno (FA=1d+2). Mesmo quando\natingem em cheio, as chamas causam apenas pequenas\nqueimaduras.útil apenas para assustar seres pouco inteligentes,\nou desviar a atenção dos inimigos.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Bomba Aérea",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 a 10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Cria uma bola de ar compacta que explode no lugar\ndesejado. Ela permite atacar um alvo com FA=H+1d+PMs\ngastos, ou defender-se de um ataque realizado até o seu\npróximo turno com FD=H+A+1d+PMs gastos. Esta magia\nna verdade causa pouco dano e foi criada como proteção para\ndesviar coisas como flechas e magias ofensivas. No entanto,\né considerada ótima para principiantes.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Bomba de Luz",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia cria uma explosão de luz que ataca todas\nas criaturas num raio de 3m com FA=H+PMs gastos. A luz\nnão afeta objetos inanimados, tornando a magia perfeita\npara abater inimigos sem destruir seus pertences ou causar\ndanos à volta.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Bomba de Terra",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "",
+        "custo": "10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia faz explodir um trecho de rocha, terra ou\nareia sob o alvo, gerando uma onda de choque concentrada\n(FA=H+15). Só pode ser usada em solo natural.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Bomba de Vento",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 a 10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Ao lançar esta magia, o mago primeiro aumenta a pressão\ndo ar na área e então a libera. O vento resultante sopra\npara longe qualquer coisa à frente do mago, e mesmo uma\ngrande árvore pode não resistir. A magia não causa dano\ndireto, mas empurra com Força igual aos PMs gastos.\nCriaturas a até 50m do mago devem ser bem-sucedidas\nem um teste de Força. Em caso de falha, são arremessadas\na uma distância igual ao número de PMs gastos, em metros.\nTambém sofrem 1d de dano.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Brilho de Espírito",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia lança uma onda de luz azul contra um alvo,\ncom FA=H+3d. Quando causa dano, além de perder Pontos\nde Vida, a vítima também perde Pontos de Magia na mesma\nquantidade.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Brilho Explosivo",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "25 PMs",
+        "duracao": "instantânea",
+        "descricao": "Uma das mais poderosas magias de fogo, Brilho Explosivo\ncria uma bola de luz próxima ao alvo que explode em\nchamas azuis e brancas, atacando com FA=10d e ignorando\nqualquer Armadura.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Cajado em Cobra",
+        "escola": "Elemental (terra) ou Negra",
+        "escolaMinificada": "Elemental (terra) ou Negra",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta mágica transforma um cajado, vara, galho de árvore\nou outro objeto semelhante de madeira em uma cobra\nvenenosa, totalmente sob seu controle. A cobra tem F0, H3,\nR1, A0, PdF0; se acertar um ataque ela não causa dano\nimediato, mas a vítima deve ter sucesso em um teste de\nResistência ou será envenenada.\nUma vítima envenenada sofre uma penalidade de -1\nem todas as suas características e começa a perder 1 PV\npor turno até a morte, ou até ser curada. O veneno pode\nser detido com um teste bem-sucedido de Medicina (Habilidade\n+1) ou qualquer magia de cura (mas usada deste\nmodo a magia não restaura PVs; apenas impede que o\nveneno continue agindo).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Cancelamento de Magia*",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "duas vezes o custo original (veja adiante)",
+        "duracao": "permanente",
+        "descricao": "Qualquer praticante de magia pode tentar cancelar uma\nmágica ou efeito realizado por outro mago (até mesmo aqueles\nmantidos através de Permanência).\nO custo em PMs para dissipar uma magia é igual ao dobro\ndo custo original para lançá-la. Claro que, na maioria dos casos,\num mago não tem condições de saber o custo exato do autor da\nmagia; é uma questão de arriscar. Mesmo que o Cancelamento\nfalhe, o mago que tentou fazê-lo perderá seus PMs.\nNão é necessário que ambos os magos (o autor e o\n'cancelador') pertençam à mesma escola. Uma Magia Negra\npode ser cancelada por um conjurador de Magia Branca, Magia\nElemental (qualquer) ou Magia Negra.\nNão podem ser canceladas magias de duração permanente.\nMas existem certas magias, como Cegueira, que são\npermanentes até serem canceladas; nestes casos o Cancelamento\nvai funcionar.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Cegueira",
+        "escola": "Branca ou Negra",
+        "escolaMinificada": "Branca ou Negra",
+        "Exigencias": "",
+        "custo": "3 PMs",
+        "duracao": "permanente até cancelada",
+        "descricao": "Lançada diretamente contra os olhos de uma criatura,\nesta magia pode ofuscar (com luz) ou obscurecer (com trevas)\nsua visão. O mago não precisa fazer nenhum teste para\nacertar, mas a vítima tem direito a um teste de Resistência\npara ignorar o efeito. Se falhar, ficará cega até que a magia\nseja cancelada.\nUma criatura cega sofre uma penalidade de H-1 para\nfazer ataques corporais, e H-3 para ataques à distância e\nesquivas (personagens com Audição Aguçada ou Radar sofrem\napenas H-1 para ataques à distância e esquivas). Nenhum\nremédio ou método de cura mundano pode curar esta\ncegueira, e nem magias de cura normais. As únicas magias\ncapazes de devolver a visão são Cancelamento de Magia,\nCura Total, Cura de Maldição, Desejo ou a própria Cegueira\n(lançada através da escola oposta: Branca para curar trevas,\nou Negra para curar luz).\nCriaturas com Infravisão, Ver o Invisível, Visão Aguçada\ne Visão de Raio X (todos da vantagem Sentidos Especiais)\ntambém serão afetadas pela Cegueira. Contudo, certas criaturas\nque não dependem da visão - como morcegos, golfinhos,\ntoupeiras ou personagens com Radar - são imunes a\nesta magia.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Chuva Congelante",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "10 PMs ou mais (veja adiante)",
+        "duracao": "permanente até cancelada",
+        "descricao": "Esta magia poderosa nunca foi totalmente aperfeiçoada.\nUma vez conjurada, cria acima do mago uma esfera flutuante\nde gelo, que faz chover pequenas farpas de gelo na área\nabaixo (um círculo com 10m de diâmetro para cada 10 PMs\ngastos). Todos na área afetada (incluindo o mago!) sofrem\num ataque por turno com FA=3d.\nO efeito é permanente e o mago não tem controle sobre\no fenômeno. A esfera de gelo pode ser neutralizada apenas\ncom Cancelamento de Magia, ou com uma magia de fogo que\nuse no mínimo 10 PMs.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Chuva Quente",
+        "escola": "Elemental (água ou fogo)",
+        "escolaMinificada": "Elemental (água ou fogo)",
+        "Exigencias": "",
+        "custo": "0",
+        "duracao": "sustentável",
+        "descricao": "Os habitantes de Malpetrim atribuem a criação desta\nmagia a sua mais ilustre habitante - Niele, a maga elfa mais\nfamosa, poderosa e desejada de Arton. Tudo que ela faz é\ncriar uma pequena e confortável chuva de água quente, ótima\npara tomar banho e curar resfriados.\nA Chuva Quente pode ser invocada apenas em aposentos\nfechados, e mantida enquanto o mago continua entoando\nas palavras mágicas de ativação. Essas palavras se parecem\nmuito com certas cantigas élficas infantis. Por alguma razão,\na água criada pela Chuva Quente não serve para matar a sede\nou apagar chamas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Coma",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "20 PMs",
+        "duracao": "permanente até cancelada",
+        "descricao": "Poucos magos necromantes conhecem esta raríssima\nmagia, e menos ainda podem usá-la.\nCaso consiga tocar a vítima, esta deve fazer um teste de\nResistência -1. Se falhar, seus Pontos de Vida caem imediatamente\npara zero e ela tomba inconsciente, ainda viva, mas\nem estado de congelamento.\nSob efeito do Coma a vítima não envelhece, e após um\nano nesse estado a maioria das doenças, venenos ou maldições\ndeixa de funcionar. Por esse motivo um mago pode usar\no Coma sobre si mesmo como medida de emergência, para\npreservar sua vida. Dizem que vários necromantes poderosos\npodem estar escondidos em coma, esperando por alguma\npessoa ou evento que venha despertá-los.\nUma vítima desta magia não pode ser despertada por\nmeios mundanos, mesmo que receba dano. Apenas Acordar,\nCancelamento ou Desejo podem interromper o Coma. Criaturas\ncom Resistência superior à Habilidade do mago são imunes.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Comando de Khalmyr",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "4 PMs",
+        "duracao": "instantânea",
+        "descricao": "Você pronuncia uma palavra de comando para o alvo,\nque ele tentará obedecer da melhor maneira possível. Você\npode escolher uma das seguintes opções:\n'Venha': a vítima tenta alcançar o mago em velocidade\nmáxima durante um turno, sem realizar nenhuma outra ação.\n'Solte': a vítima larga o que estiver segurando.\n'Caia': o alvo imediatamente cai no chão, permanecendo\ndeitado por 1 rodada. Ele pode agir normalmente enquanto\nestá caído, mas sofre as penalidades adequadas. Este comando\ntambém é conhecido como 'Senta, Inuyasha!'\n'Fuja': a vítima tenta fugir do mago em velocidade máxima\ndurante um turno, sem realizar nenhuma outra ação.\n'Pare': a vítima fica parada durante um turno. Não pode\nrealizar qualquer outra ação, mas não é considerada indefesa.\nA vítima tem direito a um teste de Resistência -1 para\nevitar o efeito. Caso o alvo não possa cumprir o comando em\nmenos de um turno, a magia falha automaticamente.",
+        "livro": "MA"
+    },
+    {
+        "nome": "O Crânio\nVoador de Vladislav",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "3 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta mágica permite disparar pelas mãos um apavorante\ncrânio humano envolto em magia negra, que explode quando\natinge o alvo. Este ataque tem FA igual a H+2d, e ignora\ntotalmente a Armadura do alvo, seja mágica ou não - a\nmenos que o alvo tenha Armadura Extra contra magia.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Criar Pântano",
+        "escola": "Elemental (água ou terra) ou Negra",
+        "escolaMinificada": "Elemental (água ou terra) ou Negra",
+        "Exigencias": "",
+        "custo": "1 PM ou mais",
+        "duracao": "permanente",
+        "descricao": "Esta magia afeta uma área circular, medindo 1m de\ndiâmetro para cada Ponto de Magia gasto, transformando-a\nem pântano. O mago também pode optar por afetar várias\npequenas áreas com 1m de diâmetro (1 PM cada).\nO chão lamacento torna difícil se mover, impondo uma\npenalidade de F-1 e H-1 para ataques corpo-a-corpo e\nesquivas. Muito útil em lutas contra guerreiros que valem-se\nde força bruta. Obviamente, não tem efeito contra voadores.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Criar Vento",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta magia faz soprar um vento forte diante do mago,\nimpedindo uma criatura de se aproximar. A ventania oferece\num bônus igual aos PMs gastos na Força de Defesa do mago\ncontra ataques desse mesmo alvo.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Criatura Mágica",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Magia pura pode ser usada para construir criaturas:\ndiabretes de fogo, estátuas de pedra, pássaros de luz...\nqualquer coisa que sua imaginação mandar.\nO poder dessa criatura depende dos Pontos de Magia\ngastos. Por 4 PMs, você tem 4 pontos de personagem para\ndistribuir entre as características da criatura (Força, Habilidade,\nResistência, Armadura e Poder de Fogo). Não é permitido\nconstruir uma criatura com 0 pontos.\nVocê também não pode mudar as características\nda criatura - se quiser fazê-la diferente, terá que\ngastar mais PMs e construir tudo de novo. O mago pode\nenxergar e ouvir através de sua criatura (mas ela não pode se\nafastar além do alcance máximo).\nNão se esqueça que seus próprios Pontos de Magia ficam\n'presos' na criatura enquanto ela continuar existindo. Os seguintes\npoderes extras podem ser adicionados à criatura, por\num custo maior: Aceleração (+1 PM), Aparência Inofensiva\n(+1 PM), Voo (+1 PM), Sentidos Especiais (+1 PM cada).\nPoderes extras podem exceder o limite original de 5 PMs.\nCriaturas Mágicas têm as mesmas imunidades de um\nconstruto (é como se fossem construtos feitos de magia). Elas\nnão respiram, não comem ou bebem, não dormem, são imunes\na doenças, venenos, magias que afetam a mente e quaisquer\noutras que só funcionem com criaturas vivas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Cura Mágica",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "2 PMs para cada 1d",
+        "duracao": "instantânea",
+        "descricao": "Quando utilizada por servos dos\ndeuses, a Magia Branca pode curar.\nPara cada 2 PMs gastos, você pode curar\n1d Pontos de Vida em si mesmo ou\nqualquer criatura.\nAlém de curar PVs, Cura Mágica também\npode curar aflições como doenças, venenos,\ncegueira ou paralisia - exceto aquelas\ncuja descrição diga o contrário. Quando\nusada deste modo, a magia consome\n4 PMs e não restaura PVs.\nUsada contra mortos-vivos,\nesta magia causa dano\nem vez de curar. Para curar\nPVs em mortos-vivos existe\numa outra versão desta\nmagia, chamada Cura\nPara os Mortos (veja\nmais adiante).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Cura para\nos Mortos",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "2 PMs para cada 1d PVs (veja",
+        "duracao": "instantânea",
+        "descricao": "Esta é uma rara mágica necromante\nprópria para restaurar Pontos de Vida em\nmortos-vivos, uma vez que as mágicas\nde cura convencionais não funcionam\ncom eles. Para cada 2 PMs gastos, você pode curar 1d\nPontos de Vida em si mesmo ou outra criatura.\nNormalmente esta mágica é conhecida apenas por magos\nnecromantes ou mortos-vivos inteligentes.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Dardos da Agonia",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Faz com que o mago atire numerosos dardos de gelo\ndiminutos, que atacam com FA=H+1d. Caso o alvo receba\nqualquer dano, sente muita dor e sofre uma penalidade de -1\nem Resistência até o fim do combate. Esta magia é própria\npara enfraquecer a vontade de lutar do oponente.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Desmaio",
+        "escola": "Branca, Elemental (espírito) ou Negra",
+        "escolaMinificada": "Branca, Elemental (espírito) ou Negra",
+        "Exigencias": "",
+        "custo": "2 PMs ou mais por criatura (veja adiante)",
+        "duracao": "veja adiante",
+        "descricao": "Esta é uma das magias mais cobiçadas por magos. Eles\npodem usá-la para fazer com que uma ou mais criaturas\npercam a consciência, desmaiando se falharem em um teste\nde Resistência +1.\nApesar de versátil, esta é uma magia relativamente fraca.\nEla dura um minuto para cada 2 PMs gastos (e também\npode ser cancelada). Uma criatura inconsciente desperta\nautomaticamente se sofrer qualquer dano.\nMortos-vivos, construtos e quaisquer outras criaturas\nque não estejam vivas são imunes a esta magia. Criaturas\ncom Resistência superior à Habilidade do mago também não\npodem ser afetadas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Destrancar",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "instantânea",
+        "descricao": "Esta magia simples abre fechaduras trancadas. Mesmo\numa porta trancada com a magia Trancar será aberta.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Destruição do Espírito",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "40 PMs",
+        "duracao": "instantânea",
+        "descricao": "A mais poderosa e temível magia espiritual, envolve a\nvítima em luz azul-esbranquiçada e destrói sua alma - não\napenas matando-a, mas também impedindo sua ressurreição\ne seu descanso nos Reinos dos Deuses. Apenas um Desejo\npode restaurar uma vítima desta magia.\nA vítima tem direito a um teste de R-3 para evitar o efeito.\nCriaturas com Resistência superior à Habilidade do mago são\nimunes. A magia afeta apenas criaturas que tenham espírito\n(não afeta construtos, mas afeta mortos-vivos).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Detecção de Magia*",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Esta magia básica permite ao conjurador ver um brilho\nluminoso suave emitido por qualquer objeto, criatura ou lugar\nque esteja sob efeito de magia.\nNão funciona contra seres sobrenaturais (mortos-vivos,\nmagos, dragões...), mas funcionará em qualquer criatura que\nesteja, no momento, sob efeito de uma magia - como uma\npessoa dominada mentalmente, um mago protegido por um\nescudo invisível, ou uma criatura sob efeito de uma magia de\nInvisibilidade (mas não criaturas que tenham invisibilidade\ncomo uma habilidade natural). Ilusões mágicas também podem\nser detectadas por esse método.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Encontro Aleatório",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "4 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia conjura um grupo de criaturas agressivas\nexistentes na região (tipo à escolha do mestre), que imediatamente\natacam o conjurador e seus aliados. As criaturas\nsurgem em 1d minutos. Acredita-se que esta magia serve\npara atrair caça, ou treinar aventureiros\nem combate contra monstros - mas\ntambém pode ser útil para distrair\ninimigos em situações de\nemergência.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Enfraquecer Magia",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "10 PMs",
+        "duracao": "sustentável",
+        "descricao": "Um enorme círculo luminoso é traçado no chão, delimitando\numa área circular com 10m de raio, centrada no mago.\nConjurar qualquer magia nesta área, exceto Magia Branca,\nrequer o dobro de Pontos de Magia.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Enxame de Trovões",
+        "escola": "Branca ou Elemental (ar)",
+        "escolaMinificada": "Branca ou Elemental (ar)",
+        "Exigencias": "",
+        "custo": "4 PMs",
+        "duracao": "instantânea",
+        "descricao": "Com esta mágica o mago pode disparar pelas mãos um\nestrondo sônico, que ruma na direção do alvo como pequenas\nlâminas giratórias luminosas.\nEste ataque tem FA igual a H+2d e ignora totalmente a\nArmadura do alvo em sua Força de Defesa.",
+        "livro": "MA"
+    },
+    {
+        "nome": "A Escapatória de Valkaria",
+        "escola": "Branca ou Negra",
+        "escolaMinificada": "Branca ou Negra",
+        "Exigencias": "",
+        "custo": "1 PM para cada 4 criaturas",
+        "duracao": "instantânea",
+        "descricao": "Lançada no interior de uma masmorra ou ruína, esta\nmagia transporta o conjurador e seus aliados de volta à entrada.\nA magia não serve para escapar de prisões e outros\nlugares trancados - ela funcionará apenas quando o caminho\npara a saída estiver desimpedido. A magia também não\nfuncionará caso o conjurador não conheça o ponto de entrada\n(por exemplo, caso tenha sido trazido inconsciente).\nEsta magia afeta apenas criaturas voluntárias. Não se\npode transportar um alvo contra sua vontade - não é preciso\nfazer teste de Resistência.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Esconjuro de\nMortos-Vivos",
+        "escola": "Branca ou Elemental (espírito)",
+        "escolaMinificada": "Branca ou Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "1 PM por morto-vivo",
+        "duracao": "permanente",
+        "descricao": "A maioria dos clérigos tem poder para expulsar esqueletos,\nzumbis, múmias e outros mortos-vivos com esta magia.\nQuando o clérigo entoa suas preces, quaisquer mortos-vivos\nem seu campo de visão devem fazer um teste de Resistência:\nfalhar significa que a criatura tenta fugir, e nunca mais volta a\nincomodar aquele clérigo. A magia não vai funcionar caso o\nclérigo não consiga enxergá-los, e vice-versa.\nQuanto maior a Habilidade do clérigo, mais chances ele\ntem de ser bem-sucedido. Caso a Resistência do morto-vivo\nseja menor que a Habilidade do clérigo, essa diferença será\naplicada como redutor no teste de Resistência. Um esqueleto\ncom R1, ao resistir a um clérigo com H3, deve fazer um teste\nde Resistência -2 (3-1). Caso essa diferença seja 4 ou mais,\no morto-vivo não tem direito a nenhum teste - o esconjuro\né automaticamente bem-sucedido.\nQualquer morto-vivo cuja Resistência seja maior que a\nHabilidade do clérigo é imune a esta magia. Por exemplo, é\ninútil para um clérigo com H4 tentar esconjurar um vampiro\ncom R5; ele não precisa fazer o teste de Resistência. Existem\ntambém certos mortos-vivos poderosos que nunca podem\nser esconjurados.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Escuridão",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "permanente até cancelada",
+        "descricao": "Esta magia faz um objeto tocado pelo mago irradiar escuridão\nem uma área de 6m de raio. Nem mesmo as criaturas\ncom Visão Aguçada, Infravisão, Ver o Invisível ou Visão de\nRaio X conseguem ver qualquer coisa na área (mas Audição\nAguçada, Faro Aguçado e Radar funcionam normalmente).\nLuzes normais (tochas, velas, lampiões...) também não funcionam\nna área de Escuridão.\nQuando a magia é conjurada sobre um pequeno objeto,\neste objeto pode ser guardado (em um bolso, por exemplo)\npara interromper a Escuridão, que voltará a funcionar caso o\nobjeto seja revelado novamente.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Explosão",
+        "escola": "Elemental (todas) ou Negra",
+        "escolaMinificada": "Elemental (todas) ou Negra",
+        "Exigencias": "",
+        "custo": "2 PMs para cada 1d de dano (veja adiante)",
+        "duracao": "instantânea",
+        "descricao": "O mago pode fazer um ataque devastador, semelhante\nao Ataque Mágico, com a diferença de que explode no ponto\nde impacto em uma grande bola de fogo, explosão d'água,\nestilhaços de rochas, estrondo sônico ou impacto de trevas\n- dependendo da escola.\nA explosão tem FA igual a H, +1d para cada 2 PMs\ngastos (no máximo 10 PMs para H+5d). O dano se reduz em\n1d para cada 3m de distância do ponto de impacto.\nAlvos que consigam uma esquiva recebem +2 em sua\nForça de Defesa para evitar o dano. As vantagens desta\nmagia são que não é possível se esquivar completamente da\nexplosão, e ela pode apanhar muitos alvos ao mesmo tempo.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Ferrões Venenosos",
+        "escola": "Elemental (água) ou Negra",
+        "escolaMinificada": "Elemental (água) ou Negra",
+        "Exigencias": "",
+        "custo": "3 PMs",
+        "duracao": "instantânea",
+        "descricao": "Com esta magia o usuário dispara pelos dedos uma\npequena chuva de dardos, parecidos com espinhos de cacto.\nO mago faz um ataque com FA igual a H+2d. Se vencer a FD\nda vítima, esta deve fazer um teste de Resistência -1 para\nnegar o efeito. Se falhar, será envenenada.\nUma vítima envenenada sofre uma penalidade de -1 em\ntodas as suas características e começa a perder 1 PV por\nturno até a morte, ou até ser curada. O veneno pode ser detido\ncom um teste bem-sucedido de Medicina (H+1) ou qualquer\nmagia de cura (usada deste modo a magia não restaura PVs;\napenas impede que o veneno continue agindo).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Fios de Gelo",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Quando o mago toca uma superfície (parede, chão...),\nfios de gelo correm rapidamente através do plano tocado.\nTodos aqueles em contato com essa superfície a até 10m do\nmago devem ser bem-sucedidos um teste de Resistência, ou\ntransformam-se em estátuas de gelo durante 1d horas. É\nmuito eficaz em corredores e outros lugares fechados.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Flecha de Vento",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "0",
+        "duracao": "instantânea",
+        "descricao": "Esta magia muito simples cria uma flecha de vento. Seu\ndano é pequeno (FA=2), quase nunca ferindo realmente o\nalvo - ou causando apenas uma leve cicatriz. Fraca demais\npara combate efetivo, é usada apenas para demonstrar hostilidade\nou romper cordas e objetos similares.",
+        "livro": "MA"
+    },
+    {
+        "nome": "A Flor Perene de Milady 'A'",
+        "escola": "Branca ou Elemental (água)",
+        "escolaMinificada": "Branca ou Elemental (água)",
+        "Exigencias": "",
+        "custo": "0",
+        "duracao": "permanente até cancelada",
+        "descricao": "Inventada por uma antiga aluna da Academia Arcana\n(que preferiu se manter anônima para evitar problemas...),\nesta magia simples pode ser realizada por muitos magos\niniciantes. Ela faz nascer um pequeno e inofensivo gerânio.\nQuando arrancado, uma nova flor nasce no local - e assim\nindefinidamente, sendo impossível removê-la por meios normais.\nLançada contra uma criatura viva, ela terá direito a um\nteste de Resistência para negar o efeito; se falhar, terá uma\nlinda florzinha nascendo em alguma parte do corpo...\nA única forma de remover a flor é com Cancelamento de\nMagia; por isso a Flor Perene costuma ser usada pelos magos\npara aborrecer os não-magos que zombam de seu poder. As\nflores arrancadas desaparecem momentos depois. Esta magia\nnão pode de nenhuma forma ser usada para causar dano\nou provocar qualquer penalidade.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Fome de Megalokk",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "15 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta perigosa magia dispara 1d cargas de energia mágica\nem formato de insetos que atingem quaisquer alvos escolhidos\npelo mago, dentro do alcance. Criaturas e objetos tocados\npelas cargas são desintegrados (cada carga ataca com\nFA=3d, que ignora Armadura).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Força Mágica*",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs",
+        "duracao": "sustentável",
+        "descricao": "Qualquer das escolas pode usar magia para realizar algum\nesforço físico. Você pode criar um braço de pedra, uma\ngarra de fogo, um tentáculo de trevas ou qualquer outra forma\ncapaz de levantar, empurrar, puxar, atacar ou causar dano.\nNão importa qual a forma dessa manifestação, sua Força\nserá sempre igual à metado do número de Pontos de Magia\ngastos (até o limite de 10 PMs). Portanto, 6 PMs criam um\njato d'água com Força 3 (capaz de levantar 2.000 quilos).\nEsta magia é própria para fazer esforço físico, não para\natacar. Um ataque realizado com Força Mágica sempre tem\nFA=F+H0+1d, independente da Habilidade real do mago.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Fúria de Beluhga",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "30 PMs",
+        "duracao": "instantânea",
+        "descricao": "A mais poderosa e brutal magia do gelo de que se tem\nnotícia. Uma bola de gelo surge entre as mãos do mago, e\nentão é lançada contra uma criatura, explodindo tudo e todos\na até 10m do ponto de impacto com FA=10d. Criaturas\nreduzidas a 0 PVs através desta magia morrem imediatamente,\ntransformadas em estátuas de gelo (sem direito ao\nTeste de Morte).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Garras de Atavus",
+        "escola": "Elemental (água ou terra)",
+        "escolaMinificada": "Elemental (água ou terra)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Lançada sobre uma criatura, esta magia faz crescer garras\nem suas mãos para causar dano maior. Enquanto durar o\nefeito, o alvo da magia recebe Força+2.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Ilusão",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 PM ou mais (veja adiante)",
+        "duracao": "sustentável",
+        "descricao": "Esta magia permite criar imagens falsas, baseadas em\ncoisas que o mago conhece bem. Se um mago tenta projetar\numa imagem de algo que nunca viu, qualquer pessoa ou\ncriatura tem direito a um teste de Resistência para evitar ser\nenganada. O mesmo vale para imagens que pareçam claramente\nabsurdas ou fora de lugar (um peixe de duas pernas,\num pássaro voando dentro d'água, um orc usando uma luxuosa\narmadura completa...). O mestre pode aplicar modificadores\nao teste.\nImagens criadas através desta magia não têm cheiro e\nnão emitem qualquer som (para isso existe Ilusão Avançada,\nveja adiante), e também não podem causar qualquer dano.\nElas não têm solidez: qualquer objeto material pode atravessar\numa ilusão.\nÉ possível criar ilusões pequenas e simples com 1 PM.\nQuanto maior o consumo de energia, maiores e mais sofisticadas\nelas se tornam:\n1 PM: uma imagem do tamanho de um objeto pequeno\ne imóvel, que possa ser seguro com uma só mão.\n2 PMs: uma imagem pequena (e em movimento), ou\ncom até 1m de diâmetro (imóvel).\n3 PMs: imagem com até 1m de diâmetro (em movimento),\nou do tamanho de um homem (imóvel).\n4 PMs: do tamanho de um homem (em movimento), ou\num cavalo (imóvel).\n5 PMs: um cavalo (em movimento), ou elefante (imóvel).\n6 PMs: elefante em movimento, ou dragão imóvel.\n7 PMs: dragão em movimento, ou exército imóvel.\n8 PMs: exército em movimento, ou aldeia imóvel.\n9 PMs: aldeia em movimento, ou montanha imóvel.\n10 PMs: uma montanha em movimento!",
+        "livro": "MA"
+    },
+    {
+        "nome": "Impulso",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "sustentável",
+        "descricao": "Este feitiço enche uma pessoa de motivação, coragem\ne certa burrice. A vítima será capaz de coisas que em geral\nnão ousaria - como declarar-se fervorosamente para uma\npessoa amada, dizer poucas e boas para um superior, desafiar\num adversário mais forte... enfim, jogar toda a prudência\npela janela.\nA vítima tem direito a um teste de Resistência para\nevitar o efeito. Se falhar, enquanto durar a magia, a criatura\nafetada recebe +1 em testes de iniciativa (por sua recémadquirida\nimpetuosidade), mas sofre redutor de -1 em Armadura\ne testes de Resistência (por sua imprudência).\nQuaisquer outros efeitos dependem da pessoa afetada e\nsuas motivações pessoais: quando um jovem guerreiro iniciante\nxinga a mãe do capitão da guarda, ou persegue a campeã\ngladiadora Loriane para beijá-la, muito provavelmente esta\nmagia terá sido a responsável...",
+        "livro": "MA"
+    },
+    {
+        "nome": "Inferno de Gelo",
+        "escola": "Branca ou Elemental (água)",
+        "escolaMinificada": "Branca ou Elemental (água)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "instantânea",
+        "descricao": "A verdadeira origem desta magia é controversa. Alguns\nmagos afirmam que seus primeiros usuários seriam bárbaros\nde uma tribo desconhecida, que se escondem nos pontos\nmais remotos das Montanhas Uivantes - mas histórias mais\nexageradas dizem que eles receberam esta magia de Beluhga,\na Rainha dos Dragões Brancos. (E também há quem fale\nsobre um ninja azul...)\nEsta mágica permite ao usuário disparar pelas mãos\numa pequena salva de pontas de gelo, afiadas como facas e\ngélidas como uma nevasca. O mago ataca com FA igual a\nH+2d, e este ataque ignora totalmente a Armadura do alvo,\nque não entra em sua Força de Defesa.\nComo efeito extra, se receber qualquer dano, o alvo deve\nainda fazer um teste de Resistência: se falhar ficará congelado\ne indefeso durante uma turno, incapaz de atacar, se esquivar\nou usar magia.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Invisibilidade",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "1 PM ou mais (veja adiante)",
+        "duracao": "sustentável",
+        "descricao": "Esta magia permite tornar objetos e criaturas invisíveis.\nCoisas invisíveis ainda podem ser ouvidas, farejadas ou percebidas\nde outras formas. Ver o Invisível (de Sentidos Especiais)\nvence totalmente esta magia.\nAtacar uma criatura invisível impõe ao atacante uma\npenalidade de H-1. Uma criatura invisível não pode atacar ou\nlançar outras magias enquanto está nesse estado, ou a\ninvisibilidade será cancelada. O mesmo acontece se ela, a\nqualquer momento, sofrer qualquer dano.\nComo na magia Ilusão, quanto maior o custo em PMs,\nmaiores os objetos ou criaturas tornadas invisíveis:\n1 PM: algo do tamanho de um objeto pequeno e imóvel,\nque possa ser seguro com uma só mão.\n2 PMs: algo pequeno (e em movimento), ou com até 1m\nde diâmetro (imóvel).\n3 PMs: algo com até 1m de diâmetro (em movimento),\nou do tamanho de um homem (imóvel).\n...E assim por diante, como na magia Ilusão.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Lâmina d'àgua",
+        "escola": "Elemental (água) ou Negra",
+        "escolaMinificada": "Elemental (água) ou Negra",
+        "Exigencias": "",
+        "custo": "10 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta perigosa magia cria uma lâmina d'água sob altíssima\npressão, tão afiada que corta praticamente qualquer coisa. O\nconjurador move as mãos e controla essa lâmina como uma\narma vorpal (veja em 'Objetos Mágicos') que ataca à distância\n(até 10m) com FA=H+1d+10. Esta magia pode ser\nconjurada apenas próxima a um grande corpo d'água.",
+        "livro": "MA"
+    },
+    {
+        "nome": "A Lança Infalível de Talude",
+        "escola": "Branca ou Elemental (fogo)",
+        "escolaMinificada": "Branca ou Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta mágica simples permite criar uma lança luminosa\nque surge ao lado do mago e é imediatamente disparada,\nexplodindo ao atingir o objetivo. Essa lança sempre acerta\ncom FA=2, e contra ela qualquer alvo é considerado indefeso\n(apenas sua Armadura vale na Força de Defesa).\nSe quiser, o mago pode criar lanças extras. Com 2 PMs\npode-se criar duas lanças; com 3 PMs, três lanças, e assim\npor diante - até um máximo de 5 lanças.\nAs lanças podem ser dirigidas contra alvos diferentes,\nou contra um mesmo alvo para somar uma FA maior (três\nlanças atacam juntas com FA 6).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Leitura de Lábios",
+        "escola": "Branca ou Elemental (ar)",
+        "escolaMinificada": "Branca ou Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Esta é uma magia simples, mas pode ser preciosa. Ela\npermite ouvir perfeitamente as palavras de qualquer criatura\nque esteja em seu campo de visão. Além de sua utilidade\nóbvia em espionagem, Leitura de Lábios será bem útil para o\nmago que deseja conhecer as magias de seus inimigos -\npois permite ouvir com perfeição as palavras mágicas que\neles murmuram, e mais tarde utilizá-las.\nLeitura de Lábios pode ser combinada com Sentidos\nEspeciais para enxergar ainda mais longe, desde que o alvo\nesteja dentro do alcance. Qualquer personagem com a perícia\nIdiomas ou Investigação tem treinamento para conseguir o\nmesmo efeito desta magia, bastando um teste de H+1.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Luz",
+        "escola": "Branca ou Elemental (fogo)",
+        "escolaMinificada": "Branca ou Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Esta magia faz um objeto tocado brilhar como uma tocha,\niluminando uma área de 6m de raio (e mais 6m adicionais com\numa luz fraca) a partir do ponto de origem. Essa distância é\ndobrada para personagens com Visão Aguçada.\nO efeito é imóvel, mas pode ser lançado sobre um objeto\nmóvel - como um cajado carregado pelo mago. Uma Luz que\nentre em uma área de Escuridão mágica não funciona.",
+        "livro": "MA"
+    },
+    {
+        "nome": "A Mágica\nSilenciosa de Talude",
+        "escola": "Elemental (ar)",
+        "escolaMinificada": "Elemental (ar)",
+        "Exigencias": "",
+        "custo": "1 PM",
+        "duracao": "sustentável",
+        "descricao": "Os magos do ar dominam a magia de Silêncio, mas\ntambém sabem como vencê-la. Inventada pelo Mestre Máximo\nda Magia, esta mágica permite lançar magias sem emitir\nsom. Sob efeito de Silêncio o mago continua incapaz de falar\nou ouvir nada, mas pode lançar magias. O mesmo vale se\nestiver amordaçado, embaixo d'água ou coisa assim.\nEsta magia é uma das poucas que podem ser lançadas\nem silêncio total, sem palavras (apenas gestos com as mãos;\nsem estes gestos, não se pode lançar a magia). Magos\nexcepcionalmente paranoicos usam esta magia o tempo todo\npara evitar que suas palavras sejam ouvidas, ou seus lábios\nlidos - e suas magias descobertas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Marionete",
+        "escola": "Elemental (terra) ou Negra",
+        "escolaMinificada": "Elemental (terra) ou Negra",
+        "Exigencias": "",
+        "custo": "10 PMs por hora",
+        "duracao": "sustentável",
+        "descricao": "Esta magia poderosa não afeta a mente, mas controla\ntotalmente o corpo de uma criatura. A vítima deve fazer um\nteste de Resistência -1: se falhar, cada movimento seu estará\nsob total controle do mago.\nA vítima ainda tem consciência de tudo que acontece à\nsua volta, podendo ver, ouvir e até falar com certo esforço\n(mas não lançar magias). Contudo, seu corpo vai realizar\napenas os movimentos que o mago deseja. A vítima pode\nser manipulada para se movimentar, lutar, usar vantagens e\nmanobras de combate... enfim, fazer qualquer coisa de que\nseja capaz conscientemente.\nÉ absolutamente necessário que o mago observe a vítima\npara controlar seus movimentos (coisa que ele prefere\nfazer à distância, claro). Se a qualquer momento o conjurador\nperder contato visual, não pode mais controlar a vítima - ela\nestará paralisada, incapaz de se mover até que a magia termine,\nseja cancelada ou até que o mago recupere o controle.\nSe uma vítima nesse estado faz qualquer coisa que\nviole um Código de Honra, pode fazer um novo teste de\nResistência. Se desta vez tiver sucesso, a magia é cancelada\n- mas a vítima desmaia com o choque, com seus PVs\nreduzidos a zero.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Mata-Dragão",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "30 PMs",
+        "duracao": "instantânea",
+        "descricao": "Também conhecida em algumas regiões como 'Dragon\nSlayer' ou 'Dragon Slave', esta é uma das mais poderosas\nmagias de destruição conhecidas. O mago dispara através\ndas mãos uma carga de energia explosiva, que ataca um\núnico alvo com FA=H+2d+30 e também destrói tudo a até\n100m do ponto de impacto com FA 20.\nInvocar esta magia leva dois turnos - ou seja, ela só\npode ser lançada no final do segundo turno (perdendo automaticamente\na iniciativa em combate). Durante sua invocação,\no mago é considerado indefeso. Se durante a execução\no mago for atacado, interrompido ou obrigado a realizar qualquer\noutra ação, a magia será perdida (mas nenhum PM\nserá gasto).\nNão custa lembrar: seria muito saudável para quem realiza\na magia (e seus aliados) estar a mais de cem metros do\nponto de impacto...",
+        "livro": "MA"
+    },
+    {
+        "nome": "Megalon",
+        "escola": "Elemental (água ou terra)",
+        "escolaMinificada": "Elemental (água ou terra)",
+        "Exigencias": "",
+        "custo": "5 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta magia torna uma criatura maior e mais forte. O\naumento depende do consumo de Pontos de Magia: cada 5\nPMs aumentam em 50% o tamanho e a velocidade da criatura;\ne concedem um bônus de +1 em Força, Resistência\n(incluindo Pontos de Vida e Pontos de Magia) e Poder de Fogo\ndo alvo. Roupas, armas e armaduras que estejam com a\ncriatura também são ampliadas. Criaturas que recebam a magia contra a vontade têm\ndireito a um teste de Resistência para negar o efeito. Cada 5\nPMs para realizar Megalon podem reverter um nível dos efeitos\nde Mikron",
+        "livro": "MA"
+    },
+    {
+        "nome": "Mikron",
+        "escola": "Elemental (água ou terra)",
+        "escolaMinificada": "Elemental (água ou terra)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "permanente até cancelada",
+        "descricao": "Exatamente oposta a Megalon, esta magia torna uma\ncriatura menor e mais fraca. Cada 5 PMs reduzem em 50% o\ntamanho e a velocidade da criatura, e concedem uma penalidade\nde -1 em Força, Resistência (incluindo Pontos de Vida e\nPontos de Magia) e Poder de Fogo do alvo (até um mínimo de\n0). Roupas, armas e armaduras que estejam com a criatura\ntambém são reduzidas.\nAo contrário de Megalon, a magia Mikron é permanente.\nEla pode ser cancelada ou então revertida com Megalon. O\noposto também é possível.\nCriaturas que recebam a magia contra a vontade têm\ndireito a um teste de Resistência para negar o efeito.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Morte Estelar",
+        "escola": "Branca, Elemental e Negra",
+        "escolaMinificada": "Branca, Elemental e Negra",
+        "Exigencias": "",
+        "custo": "5 PMs permanentes",
+        "duracao": "instantânea",
+        "descricao": "Esta é a mais poderosa magia destrutiva conhecida em\nArton, e talvez em todo o universo!\nQuando a Morte Estelar é invocada, uma das estrelas do\ncéu desaparece (sua falta será notada apenas anos mais\ntarde, porque a luz das estrelas leva muito tempo para atingir\num planeta). Toda a sua matéria é convertida em energia, e\nreunida em um único disparo. Sua Força de Ataque é considerada\ninfinita: qualquer coisa atingida pela magia será destruída,\nseja uma criatura, um avatar, um deus menor ou mesmo um\nplaneta, sem direito a testes para resistir!\nPara lançar a magia, o mago deve sacrificar 5 PMs\npermanentemente. O mago tem\ncontrole total sobre aquilo que será destruído - ele pode\nacabar com uma criatura, uma montanha, um reino ou um\ncontinente sem afetar nada em volta. Não é necessário nenhum\nteste para acertar.\nObviamente, cada vez que a Morte Estelar é usada, um\nsol morre em algum lugar do universo - de modo que o\nGrande Talude, o único que se acredita conhecer esta magia,\nquase nunca a utiliza. Ele diz que, caso este ataque destrua o\nsol de um mundo habitado, a própria Deusa da Magia pagará\npelo crime com sua vida!",
+        "livro": "MA"
+    },
+    {
+        "nome": "Nevasca",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta magia conjura uma tempestade de gelo, que não\ncausa dano real, mas dificulta enormemente a visibilidade e\nmovimentação na área afetada.\nA Nevasca afeta uma área circular com 30m de diâmetro,\ncentrada no mago. A visibilidade é reduzida a poucos\npassos - para atacar qualquer alvo que não esteja à distância\nde combate corpo-a-corpo (1,5m), o atacante é considerado\ncego. A fúria da tempestade também interfere com quaisquer\nSentidos Especiais, bloqueando-os da mesma forma.\nA velocidade de todas as criaturas é reduzida à metade.\nApenas criaturas voadoras com Força 5 ou mais conseguem\nmanter-se no ar. Além disso, qualquer chama não mágica na\nárea é instantaneamente extinta - tornando esta magia uma\nforma eficaz de combater incêndios.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Nevoeiro de Hyninn",
+        "escola": "Elemental (água)",
+        "escolaMinificada": "Elemental (água)",
+        "Exigencias": "",
+        "custo": "1 PM por turno",
+        "duracao": "sustentável",
+        "descricao": "Quando esta magia é conjurada, uma névoa muito densa\nse espalha a partir do mago até 10m, impedindo a visibilidade\n- todos na área são considerados cegos, exceto o próprio\nmago. Seu custo reduzido torna a magia eficaz, mas também\nmuito fácil de ser cancelada. Por esse motivo, é melhor quando\nutilizada contra não magos.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Nevoeiro de Sszzaas",
+        "escola": "Elemental (água) ou Negra",
+        "escolaMinificada": "Elemental (água) ou Negra",
+        "Exigencias": "",
+        "custo": "2 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "Esta perigosa variante do Nevoeiro de Hyninn tem exatamente\no mesmo aspecto e efeitos (todos na área afetada,\nexceto o mago, são considerados cegos). No entanto, o Nevoeiro\nde Sszzaas é também venenoso, causando a perda de\n1 PV por turno. O mago também está exposto ao veneno, por\nisso a magia é favorita por homens-serpente, mortos-vivos e\noutros seres imunes a veneno.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Pânico",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "2 PMs por criatura",
+        "duracao": "sustentável",
+        "descricao": "Alvos desta magia devem fazer um teste de Resistência.\nQuem falha, fica apavorado e tenta fugir do mago de\nqualquer maneira, o mais rápido que puder. Uma vítima em\npânico não pode usar qualquer manobra, vantagem ou magia\nque consuma PMs - exceto aquelas que ajudem em sua\nfuga, como esquivas, Aceleração, Transporte, Teleporte...\nO Pânico vai durar até que a magia termine ou até que a\nvítima saia do alcance da magia (o que pode ser difícil, se o\nmago começar uma perseguição...). Personagens ou criaturas\nque por algum motivo sejam imunes ao medo nunca são afetados\npor esta magia.\nDragões, certos mortos-vivos e outras criaturas têm\nesta magia como uma habilidade natural.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Paralisia",
+        "escola": "Branca ou Negra",
+        "escolaMinificada": "Branca ou Negra",
+        "Exigencias": "",
+        "custo": "2 PMs por criatura",
+        "duracao": "sustentável",
+        "descricao": "Esta é uma magia pacificadora, usada por clérigos benevolentes\npara encerrar lutas sem matar - ou por clérigos\nmenos nobres, para deixar a vítima indefesa antes de ter a\ncabeça esmagada pela maça...\nCada vítima desta magia deve ter sucesso em um teste\nde Resistência. Se falhar ficará paralisada, incapaz de se\nmover, falar ou usar qualquer magia ou manobra que gaste\nPMs. Um oponente paralisado é considerado indefeso. Atacar\na vítima (mesmo sem causar dano) provoca o imediato cancelamento\nda magia.\nEsta magia afeta apenas criaturas vivas. Qualquer alvo com\nResistência superior à Habilidade do mago também é imune.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Pequenos Desejos*",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "0",
+        "duracao": "sustentável ou 1 hora (veja adiante)",
+        "descricao": "Esta magia permite realizar uma série de pequenos truques\ninofensivos, que um mago pode usar para treinar ou\nentreter uma audiência sem gastar poder mágico.\nUma vez conjurada, a magia permite executar efeitos\nmágicos simples durante uma hora. Os efeitos são mínimos e\nmuito limitados, como:\n* Criar pequenos objetos.\n* Mover algo lentamente com Força 0.\n* Colorir, limpar ou sujar itens pequenos (incluindo roupas).\n* Aquecer, esfriar e/ou temperar (mas não produzir) até\n500 gramas de material inanimado (incluindo comida).\nO mago pode dar qualquer aparência ao efeito. Por exemplo,\npara erguer a saia de uma rapariga na taverna, o mago\npoderia conjurar uma pequena brisa, ou uma mão fantasma,\nou um diminuto demônio que faça o serviço. (Não, não estamos\nsugerindo que você use esta magia para erguer a saia de\nalguém; faça por sua conta e risco!)\nPequenos Desejos não pode de nenhuma forma fazer\num ataque, causar dano, ou atrapalhar a concentração de\num conjurador. Objetos criados com esta magia parecem\nmalfeitos e artificiais, incapazes de enganar alguém. São\ntambém muito frágeis, não podem ser usados como instrumentos,\nferramentas ou armas. Qualquer mudança feita em\num objeto (que não seja movê-lo, limpá-lo ou sujá-lo) dura\napenas 1 hora.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Permanência",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "",
+        "custo": "1 a 5 PMs permanentes (veja adiante)",
+        "duracao": "permanente até cancelada",
+        "descricao": "Esta é uma magia importante para fabricar itens mágicos,\nmas também tem uma infinidade de outras aplicações.\nEla serve para tornar permanente qualquer outra magia sustentada,\nsem que os PMs do mago fiquem 'presos' nela.\nEntão, um mago pode usar Aumento de Dano para criar uma\nespada de chamas e depois lançar sobre ela Permanência,\npara ter de volta o Ponto de Magia que normalmente ficaria\npreso na espada.\nPermanência é usada para tornar criaturas mágicas mais\nduradouras, aumentar a duração de ilusões, ou ainda fixar um\nefeito mágico no corpo de uma criatura. Um mago poderia\nlançar Detecção de Magia sobre si mesmo, e logo após Permanência;\na partir de então poderia detectar magia sempre\nque quisesse.\nApenas magias sustentáveis podem ser tornadas permanentes.\nO conjurador deve sacrificar metade dos PMs necessários\npara lançar a magia original (arredondado para\ncima). Assim, para tornar permanente uma Criatura Mágica\nfeita com 5 PMs, o conjurador sacrifica 3 PMs. Uma magia\nPermanente ainda pode ser anulada com Cancelamento de\nMagia, mas neste caso o 'cancelador' também deve sacrificar\npara sempre os PMs utilizados.\nO número máximo de magias ou efeitos que uma criatura\npode ter em seu corpo, através de Permanência, é igual à sua\nprópria Resistência.\nQuando usada para fabricar um item mágico, o custo da\nmagia é 1 PM permanente, independente do poder do item. A\nPermanência de um item mágico não pode ser cancelada.\nVeja mais detalhes no capítulo 'Objetos Mágicos'.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Poder Telepático",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta magia, enquanto ativa, oferece ao mago todos os\npoderes e benefícios da vantagem Telepatia. Isso torna esta\nmagia muito cobiçada por magos não telepatas que desejam\nusar seu poder para influenciar e controlar outras pessoas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Porta Dimensional",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia transporta o conjurador (e todas as criaturas\nque esteja tocando) instantaneamente para outro lugar que\nconsiga enxergar, a até 150m. A magia não transporta cargas,\nexceto quando são carregadas por criaturas afetadas.\nUma vez transportadas, criaturas não podem agir até o\nturno seguinte. Esta magia não permite que você reapareça\ndentro de um corpo sólido: se o ponto de chegada escolhido\nnão tem espaço livre, você ressurgirá na área vazia mais\npróxima que esteja dentro do alcance.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Proteção Mágica*",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs por turno",
+        "duracao": "sustentável",
+        "descricao": "O conjurador usa mágica para proteger uma criatura,\ncriando uma parede de fogo, uma armadura de pedra, um\nescudo de luz sólida ou qualquer outra coisa.\nO aumento é igual a A+1 para cada 2 PMs gastos.\nEntão, por 4 PMs, você pode erguer uma barreira à sua volta\n(ou à volta de um companheiro) para conseguir A+2. Esta\nproteção é cumulativa com a Armadura natural do alvo, mas\nnão com qualquer outra magia de proteção.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Raio Espiritual",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "10 PMs",
+        "duracao": "instantânea",
+        "descricao": "O mago dispara pelas mãos um raio luminoso espiralado\nde grande poder destrutivo, com FA=6d. Infelizmente a trajetória\ndo raio é muito irregular (a vítima recebe um bônus de\nH+2 em seu teste de esquiva). Por esta razão, conjuradores\npreferem usar o Raio Espiritual apenas contra alvos indefesos.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Recuperação",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "5 PMs, além de 1d PMs da vítima (veja adiante)",
+        "duracao": "instantânea",
+        "descricao": "Seu custo em energia é elevado, para o\nmago e para a vítima, mas pode ser a única opção quando não\nhá um conjurador divino por perto.\nA magia acelera a capacidade de regeneração da vítima,\nfazendo com que se recobre de ferimentos mais rapidamente\n- mas a energia curativa também vem da própria vítima. 1d\nPMs são usados para restaurar a mesma quantidade de PVs.\nCada nova aplicação da magia exige mais 5 PMs do\nconjurador.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Ressurreição",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "ia: Clericato",
+        "duracao": "instantânea",
+        "descricao": "Esta poderosa mágica clerical pode devolver à vida qualquer\ncriatura que tenha morrido por causas não naturais (não\nfunciona com criaturas que morreram de velhice, seja natural\nou mágica). Não importa há quanto tempo a criatura está\nmorta, desde que o clérigo tenha à disposição grande parte do\ncadáver - ou, pelo menos, o crânio. Criaturas completamente\ndestruídas (por ácido, lava, desintegração...) não podem\nser devolvidas à vida com esta mágica. Quando usa esta\nmagia, o clérigo sacrifica 1 PM permanente.\nPara ser ressuscitada, a criatura deve ser bem-sucedida\nem um teste de Resistência +2. Ela então volta à vida e\nrecupera imediatamente todos os seus Pontos de Vida e\nPontos de Magia. Infelizmente, esta magia nunca funcionará\nduas vezes em uma mesma pessoa, mesmo que seja lançada\npor outro clérigo; no entanto, essa criatura ainda pode voltar à\nvida por outros meios mágicos (como um Desejo).\nUsada contra mortos-vivos, esta magia exige da criatura\num teste de R-2; falha resulta em sua destruição total.\nA Retribuição de Wynna\nEscola: Branca\nCusto: 4 PMs por turno\nAlcance: pessoal; Duração: sustentável\nEnquanto a Retribuição está ativa, qualquer magia lançada\ncontra o mago é refletida de volta ao conjurador (incluindo\nmagias benéficas). O novo alvo tem direito a quaisquer testes\nnormalmente permitidos para evitar o efeito. Apenas magias\nque tenham o mago como alvo são refletidas - a Retribuição\nnão tem efeito, por exemplo, em magias de área.",
+        "livro": "MA"
+    },
+    {
+        "nome": "A Rocha Cadente\nde Vectorius",
+        "escola": "Elemental (ar ou terra)",
+        "escolaMinificada": "Elemental (ar ou terra)",
+        "Exigencias": "",
+        "custo": "5 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta temível mágica faz com que um meteoro caia dos\ncéus sobre a vítima, com Força de Ataque 16! O mago não\nprecisa de testes para acertar, mas a vítima tem direito a uma\ntentativa de esquiva com redutor de -2. Por motivos óbvios,\nesta magia só pode ser usada ao ar livre.\nQualquer criatura que tenha perdido mais da metade de\nseus PVs com este ataque fica presa embaixo do meteoro,\nsendo considerada indefesa; vai precisar de um turno e um\nteste bem-sucedido de Força para se libertar. Se falhar não\nsofre dano extra, mas só poderá tentar escapar de novo no\nturno seguinte.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Roubo de Magia",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "0 (veja adiante)",
+        "duracao": "enquanto o toque durar (veja adiante)",
+        "descricao": "Esta magia permite ao mago roubar a energia mágica de\noutra pessoa apenas tocando-a. O mago pode roubar até 2\nPontos de Magia por turno (que serão transferidos para seus\npróprios PMs, sem exceder o limite máximo). A vítima não\ntem direito a nenhum teste de Resistência.\nMagos malignos costumam manter prisioneiros em seus\ncovis para drenar suas forças com o Roubo de Magia: por\nessa razão, é comum que esconderijos destes vilões estejam\nrepletos de vítimas algemadas às paredes (devidamente indefesas,\npara evitar a necessidade de testes), em locais\nestratégicos. Por outro lado, esta magia também permite a\num companheiro ceder seus próprios Pontos de Magia voluntariamente\npara seu colega mago em necessidade.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Roubo de Vida",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "1 PM por turno (veja adiante)",
+        "duracao": "enquanto o toque durar",
+        "descricao": "Também conhecida como 'A Mordida do Vampiro', esta\nmagia permite ao mago roubar a energia vital de outra pessoa\napenas tocando-a. O mago pode gastar 1 PM e roubar 1d\nPontos de Vida por turno (que serão transferidos para seus\npróprios PVs, sem exceder o limite máximo).\nEsta magia afeta apenas criaturas vivas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Sentidos Especiais",
+        "escola": "Branca ou Elemental (ar)",
+        "escolaMinificada": "Branca ou Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "sustentável",
+        "descricao": "Esta magia permite simular temporariamente uma das\nhabilidades sensoriais de Sentidos Especiais. Enquanto está\nativa, o mago possui aquele Sentido exatamente como descrito\nna vantagem - mas só pode manter um de cada vez.",
+        "livro": "MA"
+    },
+    {
+        "nome": "A Seta Infalível de Talude",
+        "escola": "Branca ou Elemental (fogo)",
+        "escolaMinificada": "Branca ou Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "0",
+        "duracao": "instantânea",
+        "descricao": "Versão muito mais modesta de A Lança Infalível de\nTalude, esta deve ser uma das mais fracas magias ofensivas\n- e uma das primeiras ensinadas na Grande Academia Arcana.\nOs instrutores costumam observar de perto os alunos que\naprendem esta magia, avaliando seu comportamento com ela\nantes de ensinar mágicas mais perigosas.\nEm vez de uma lança, a mágica cria ao lado do mago\numa pequena seta (como aquelas disparadas por bestas)\nluminosa que dispara de imediato. Ela sempre acerta com FA\n1, e contra ela qualquer alvo é considerado indefeso (apenas\nsua Armadura vale na Força de Defesa).\nGastando PMs (o custo original para uma única seta é\n0) um mago pode criar setas adicionais. Cada seta extra\naumenta o custo da magia em +1 PM (até um máximo de 5\nsetas por 4 PMs). As setas podem ser dirigidas contra alvos\ndiferentes, ou contra um mesmo alvo para uma FA maior (três\nsetas atacam juntas com FA 3).",
+        "livro": "MA"
+    },
+    {
+        "nome": "Silêncio",
+        "escola": "Branca ou Elemental (ar)",
+        "escolaMinificada": "Branca ou Elemental (ar)",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs",
+        "duracao": "permanente até cancelada",
+        "descricao": "Esta magia pode ser lançada contra um local ou uma\ncriatura, mas não em objetos. Em um local, vai afetar um\nvolume esférico com até 3m de raio para cada 2 PMs gastos\n(até 15m por 10 PMs). Dentro desta área será impossível\nouvir ou produzir qualquer som. Não se pode realizar magias\ndentro desta área, mas personagens que estejam fora da área\npodem lançar magias lá dentro.\nLançada contra uma criatura, a magia vai impedir que\nela consiga ouvir ou dizer qualquer coisa, assim como produzir\nqualquer som. Um ladrão se tornaria totalmente silencioso e\nsorrateiro (podendo, dependendo da situação, receber bônus\nquando usa as perícias Crime ou Investigação), mas um mago\nficaria impossibilitado de invocar magias!\nCaso uma criatura receba esta magia contra a sua vontade,\npode tentar resistir com um teste de Resistência +1.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Sono",
+        "escola": "Elemental (espírito)",
+        "escolaMinificada": "Elemental (espírito)",
+        "Exigencias": "",
+        "custo": "3 PMs ou mais por criatura",
+        "duracao": "veja adiante",
+        "descricao": "Uma versão mais poderosa da magia\nDesmaio, ela consegue fazer suas vítimas\nadormecerem profundamente se falharem\nem um teste de Resistência +1.\nA magia dura uma hora para cada 3 PMs gastos (e\ntambém pode ser cancelada). Uma criatura inconsciente desperta\nautomaticamente se sofrer qualquer dano.\nEsta magia afeta apenas criaturas vivas. Criaturas com\nResistência superior à Habilidade do mago também não podem\nser afetadas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Tempestade Explosiva",
+        "escola": "Elemental (fogo)",
+        "escolaMinificada": "Elemental (fogo)",
+        "Exigencias": "",
+        "custo": "60 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta é a mais poderosa magia Elemental (fogo) conhecida.\nQuando lançada, um ou mais alvos escolhidos pelo\nmago são atingidos por até 2d esferas de luz aniquiladora,\ncada uma com o poder destrutivo de um Brilho Explosivo\n(FA=10d, ignora a Armadura do alvo).\nDevido a seu altíssimo custo em energia mágica, poucos\nmagos conseguem lançar a Tempestade Explosiva.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Terremoto",
+        "escola": "Elemental (fogo ou terra)",
+        "escolaMinificada": "Elemental (fogo ou terra)",
+        "Exigencias": "",
+        "custo": "4 a 40 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia é uma versão mais destrutiva de Explosão,\nmas com efeito apenas sobre o solo.\nO Terremoto tem Força de Ataque igual a 2d+4 para\ncada 4 PMs gastos (por exemplo, 4d+8 para 8 PMs). O dano\nse reduz em 1d+2 para cada 10m de distância do ponto de\nimpacto.\nAlvos que consigam uma esquiva recebem +1 em sua\nForça de Defesa para evitar o dano. Como em Explosão, não\né possível se esquivar completamente do Terremoto e ele\npode apanhar muitos alvos ao mesmo tempo. A única falha\ndesta magia é que ela, obviamente, não afeta criaturas levitando\nou voando. Poucos magos conhecem esta magia, e\nnão parecem interessados em divulgá-la.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Trancar",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "permanente até cancelada",
+        "descricao": "Tranca magicamente coisas como janelas, portas, armários\ne baús. Itens trancados com esta magia não podem\nmais ser abertos mesmo com a chave (mas ainda podem\nser arrombados ou destruídos). Portas sem fechaduras também\npodem ser fechadas como se estivessem barradas ou\nbloqueadas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Transformação",
+        "escola": "Branca, Elemental (água ou terra) ou Negra",
+        "escolaMinificada": "Branca, Elemental (água ou terra) ou Negra",
+        "Exigencias": "",
+        "custo": "5 a 40 a PMs",
+        "duracao": "permanente até cancelada",
+        "descricao": "A Transformação não é apenas uma magia, mas uma\ngigantesca coleção delas. Existem milhares e milhares de\nmagias diferentes para transformar criaturas em outras criaturas,\nou em objetos. Magias de Transformação em kobolds,\ngoblins e pequenos animais são relativamente comuns, enquanto\nTransformação em dragões e outros monstros poderosos\nsão muito raras.\nQuase todas as magias de Transformação têm algumas\ncoisas em comum. É sempre necessário que o mago toque a\nvítima. O custo em Pontos de Magia depende de quão difícil é\nresistir à magia.\n5 PMs: teste de Resistência +3. Criaturas com R1 ou\nmais são imunes.\n10 PMs: teste de Resistência +2. Criaturas com R2 ou\nmais são imunes.\n15 PMs: teste de Resistência +1. Criaturas com R3 ou\nmais são imunes.\n20 PMs: teste de Resistência. Criaturas com R4 ou\nmais são imunes.\n25 PMs: teste de Resistência -1. Criaturas com R5 ou\nmais são imunes.\n30 PMs: teste de Resistência -2. Criaturas com R6 ou\nmais são imunes.\n40 PMs: teste de Resistência -3. Criaturas com R7 ou\nmais são imunes.\nCriaturas transformadas terão todas as suas características\nmodificadas, seja para melhor ou pior. Quase todas as\nsuas vantagens e desvantagens serão perdidas, e outras\nrecebidas. Poucas podem ser mantidas; tudo vai depender do\njulgamento do mestre.\nTodas as magias de Transformação são permanentes\naté serem canceladas, mas não podem ser revertidas com\nCancelamento de Magia. Isso pode ser feito apenas com um\nDesejo, ou então descobrindo o 'ponto fraco' da magia. Todas\nelas têm um ponto fraco (ou mais de um), um ato relativamente\nsimples que provoca seu cancelamento.\nPor exemplo, a famosa magia de Transformação em\nSapo é revertida com o beijo de uma princesa, enquanto a\nTransformação em Pudim de Ameixa é cancelada quando\nalguém tenta comer o pudim! Estas duas magias têm pontos\nfracos bem conhecidos; outros serão descobertos apenas\ndepois de muita investigação. Para piorar as coisas, muitas\nvezes o próprio mago que realizou a magia não conhece o\nmétodo de cancelamento...\nQualquer magia de transformação pode ser recebida\nvoluntariamente: ciente do que vai acontecer, a pessoa afetada\nnão faz seu teste de Resistência. Nestes casos, criaturas\nque normalmente seriam imunes (por ter Resistência elevada)\npodem ser afetadas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Transporte",
+        "escola": "todas",
+        "escolaMinificada": "todas",
+        "Exigencias": "",
+        "custo": "2 a 10 PMs",
+        "duracao": "sustentável",
+        "descricao": "O mago usa a magia como meio de transporte, seja\nlevitando com o vento, carregado por uma onda, sentado\nsobre uma rocha flutuante ou coisa assim. Ele pode transportar\na si mesmo ou outra(s) pessoa(s) ou objeto(s), desde que\nestejam dentro do alcance de sua magia.\nCom 2 PMs você pode transportar até 100kg (geralmente\numa única pessoa) a até 10m/s. Cada 2 PMs extras dobram\no peso ou a velocidade.\nEsta magia permite viajar ao nível do solo, ou pouco acima\nda água ou outra superfície líquida (lama, lava, areia movediça...).\nPara realmente voar existe uma outra magia, Voo.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Túnel",
+        "escola": "Elemental (terra)",
+        "escolaMinificada": "Elemental (terra)",
+        "Exigencias": "",
+        "custo": "2 PMs ou mais (veja adiante)",
+        "duracao": "permanente até cancelada",
+        "descricao": "Tocando uma superfície, o mago consegue produzir um\ntúnel com 3m de diâmetro e 3m de comprimento para cada 2\nPontos de Magia gastos. A magia tem efeito apenas sobre\nterrenos naturais como terra ou pedra. Não afeta madeira,\nmetal, estruturas artificiais ou seres vivos.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Verter àgua de Pedra",
+        "escola": "Elemental (água ou terra)",
+        "escolaMinificada": "Elemental (água ou terra)",
+        "Exigencias": "",
+        "custo": "2 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia reproduz o poder natural recebido pelos clérigos\nde Azgher. Como sinal de respeito ao Deus Sol dos Sar-\nAllan, a magia pode ser invocada apenas durante o dia. A água\ngerada com este efeito é suficiente para saciar seis pessoas.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Vingança de Glórienn",
+        "escola": "Negra",
+        "escolaMinificada": "Negra",
+        "Exigencias": "",
+        "custo": "10 PMs",
+        "duracao": "instantânea",
+        "descricao": "Esta magia de último recurso reduz os Pontos de Vida do\nmago imediatamente para 0, exigindo um Teste de Morte.\nAo mesmo tempo, todos os seus adversários (mas não\naliados) a até 10m são atingidos por uma saraivada de flechas\nmágicas, que atacam com FA=3d.\nQualquer magia ou qualidade especial que impeça o\nconjurador de ficar com 0 PVs também impede a magia de\nafetar os oponentes. O conjurador ainda pode ser curado ou\ntrazido de volta à vida mais tarde, por meios normais.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Visão do\nPassado Recente",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "1 PM ou mais",
+        "duracao": "instantânea",
+        "descricao": "Segundo o célebre inventor Lorde Niebling de Valkaria,\nesta magia tem uma explicação científica. Tudo que vemos\né luz refletida, e a luz viaja pelo universo. Portanto, todas\nas imagens de tudo que aconteceu no mundo ainda estão\nviajando pelo universo, para algum lugar. O mago pode\nresgatar essas imagens e descobrir o que aconteceu no\npassado recente.\nAo invocar a magia, o mago pode enxergar o passado\nrecente do mesmo lugar onde está (ou outro lugar, caso use\nSentidos Especiais ou outro meio). O alcance é de uma hora\npara cada Ponto de Magia utilizado.",
+        "livro": "MA"
+    },
+    {
+        "nome": "Visão do\nPassado Remoto",
+        "escola": "Branca",
+        "escolaMinificada": "Branca",
+        "Exigencias": "",
+        "custo": "2 PMs ou mais",
+        "duracao": "instantânea",
+        "descricao": "Versão mais poderosa de Visão do Passado Recente,\nesta magia permite enxergar um mês no passado para cada 2\nPontos de Magia utilizados.",
+        "livro": "MA"
+    }
+]

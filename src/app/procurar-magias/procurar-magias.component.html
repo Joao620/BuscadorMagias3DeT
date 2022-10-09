@@ -1,0 +1,14 @@
+<form (ngSubmit)="onSubmit(form)" #form="ngForm">
+    <label id="filtro-nome">
+        <span>Nome da Magia</span><br />
+        <input type="text" placeholder="deixe vazio para não filtrar" class="u-full-width" ngModel name="pesquisaNome">
+    </label>
+    <div id="lista-escolas">
+        <span>Quais escolas podem usar?</span>
+        <label *ngFor="let umaEscola of listaEscolas" id="filtro-escolas">
+            <span>{{umaEscola | escolaParaNomeEscola}}</span>
+            <input type="checkbox" ngModel [name]="umaEscola.toString()">
+        </label>
+    </div>
+    <input type="submit" value="Buscar!">
+</form>

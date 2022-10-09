@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "lunr-languages/lunr.pt"
+            ],
             "outputPath": "dist/magias-site",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -28,7 +31,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.sass",
+              "src/skeleton.css"
             ],
             "scripts": []
           },
@@ -96,7 +100,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.sass",
+              "src/skeleton.css"
             ],
             "scripts": []
           }

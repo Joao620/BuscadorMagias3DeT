@@ -1,0 +1,17 @@
+<div [ngClass]="{'diminuido': grandao && !expandido}">
+    <dt>{{magia.nome}}</dt>
+    <dd>
+        <ul>
+            <li>Escola: {{magia.escola}}</li>
+            <li>Custo: {{magia.custo}}</li>
+            <li>Exigencias: {{magia.Exigencias}}</li>
+            <li>Duracao: {{magia.duracao}}</li>
+            <li>Livro: {{magia.livro == "MM" ? "Manual De Magia" : "Manual Do Aventureiro"}}</li>
+        </ul>
+        <hr>
+        <!-- [style.max-height]="expandido ? 'max-content' : null" -->
+        <span #texto (click)="grandao && abrirTexto(texto)">
+            {{magia.descricao}}
+        </span>
+    </dd>
+</div>

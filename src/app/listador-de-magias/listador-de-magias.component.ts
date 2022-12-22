@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { AsyncSubject, BehaviorSubject, Subject } from 'rxjs';
 import { Magia } from '../types/Magia';
 
@@ -9,11 +9,16 @@ import { Magia } from '../types/Magia';
 })
 export class ListadorDeMagiasComponent implements OnInit {
   @Input() magiasSendoMostradas!: BehaviorSubject<Magia[]>;
+  @ViewChild('containerMagias') containerMagias!: ElementRef;
 
   constructor() { }
 
   ngOnInit(): void {
-    
+    this.magiasSendoMostradas.subscribe(() => {
+      if (this.containerMagias.nativeElement instanceof HTMLElement) {
+        this.containerMagias.nativeElement.scrollIntoView({behavior: 'smooth', block: 'start'})
+      }
+    })
   }
 
   trackByMethod(index: number, el: Magia): number {

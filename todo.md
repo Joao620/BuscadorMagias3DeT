@@ -6,4 +6,4 @@
 - [X] fazer o subject pegar dados mesmo se tiver subscribe depois
 - [C] a pesquisa em geral funcionar
 - [C] loader spinner loader das magias
-- 
+- [x] Colocar um plug para o email para suporte

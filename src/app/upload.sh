@@ -1,0 +1,1 @@
+az storage blob upload-batch -d \$web -s /dist/site-magias --account-name magias3det

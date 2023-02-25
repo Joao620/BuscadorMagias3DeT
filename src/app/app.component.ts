@@ -41,7 +41,7 @@ export class AppComponent implements OnInit {
 
   }
 
-
+// Pega nois 
   fazerPesquisa(pesquisa: Pesquisa): void {
     if (!pesquisa) return;
 

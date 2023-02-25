@@ -5,6 +5,7 @@
     </label>
     <div id="lista-escolas">
         <span>Quais escolas podem usar?</span>
+        
         <label *ngFor="let umaEscola of listaEscolas" id="filtro-escolas">
             <span>{{umaEscola | escolaParaNomeEscola}}</span>
             <input type="checkbox" ngModel [name]="umaEscola.toString()">
